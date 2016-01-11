@@ -133,8 +133,7 @@ public class SanityChecker {
                 for (String value: contents){
                     fileWriter.write(value );
                 }
-                fileWriter.write('\n');
-                fileWriter.write( "Comments: " + key.getComments() );
+                fileWriter.write( "Comments: " + key.getComments() + "\n\n");
             }
             fileWriter.close();
         } catch( IOException e){

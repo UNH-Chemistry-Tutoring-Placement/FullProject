@@ -1,0 +1,9 @@
+Objective Function Format: 3
+Description: Init. Does not take impossible choice penalty or balance terms
+min group size: 4
+max group size: 9
+below min penalty: 10
+above max penalty: 10
+possible choice penalty: 1
+diff professor penalty: 10
+gender solo penalty: 2

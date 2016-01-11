@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
+import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -15,7 +16,7 @@ public class StudentIO {
     private HashMap<String, ArrayList<Student>> allLectures;
     private int numberOfStudents = 0;
     private SanityChecker sanityChecker;
-    private String logFileName = "problem_students.txt";
+    private String logFileName = "../Files/problem_students.txt";
     boolean googleForm = true; // use blackboard if false
     private ArrayList<String> groupTimes;
     private ArrayList<String> professors;
@@ -32,11 +33,13 @@ public class StudentIO {
         if( fileNames[0].startsWith("-") ){
             if( fileNames[0].substring(1).equals("bb")){
                 googleForm = false;
+                System.out.println( "here" );
+                _fileNames = Arrays.copyOfRange( _fileNames, 1, _fileNames.length );
             }
         }
 
         parseAll(_fileNames);
-        produceStudentFile("students");
+        produceStudentFile("../Files/students");
         sanityChecker.close();
     }
 
@@ -320,7 +323,7 @@ public class StudentIO {
                     switch (response.charAt(0)) {
                         case 'y':
                             deleteFile(file);
-                            produceStudentFile(file.getName());
+                            produceStudentFile(file.getPath());
                             properResponse = true;
                             break;
                         case 'n':
@@ -342,7 +345,7 @@ public class StudentIO {
     }
 
     public void makeClassTemplateFile(){
-        File classFile = new File( "classFile" );
+        File classFile = new File( "../Files/classFile" );
         try {
             FileWriter fileWriter = new FileWriter(classFile);
             fileWriter.write("# Auto generated template \n");
