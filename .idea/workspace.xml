@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="708e1525-b35b-4591-a443-7f78ba42c948" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FileIO/googleformresponses.csv" afterPath="$PROJECT_DIR$/Files/googleformresponses.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solver/Solver.jar" afterPath="$PROJECT_DIR$/Solver/Solver.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runFileIO.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make.sh" afterPath="$PROJECT_DIR$/make.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/googleformresponses.csv" afterPath="$PROJECT_DIR$/Files/googleformresponses.csv" />
     </list>
     <ignored path="TutoringPlacementApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -428,7 +425,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452539385010</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Addded make and run scripts for FileIO. Added all files into one repo.">
+      <created>1452540099767</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1452540099767</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -465,7 +468,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added files directory" />
     <MESSAGE value="Added make scripts&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added make scripts&#10;" />
+    <MESSAGE value="Addded make and run scripts for FileIO. Added all files into one repo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Addded make and run scripts for FileIO. Added all files into one repo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
