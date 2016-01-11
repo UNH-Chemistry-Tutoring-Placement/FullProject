@@ -1,0 +1,1128 @@
+Student Info Format: 1
+Description: A bunch of students
+Number of students: 95
+Name: Laura Vincent
+Email: laura.vincent@aol.com
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Mon: 2:40 - 4:00
+Number of possible times: 0
+Name: John Sibilia
+Email: JRS2015@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 3
+Tue: 12:40 - 2:00
+Tue: 2:10 - 3:30
+Wed: 11:10 - 12:30
+Number of possible times: 1
+Wed: 12:10 - 1:30
+Name: Abigail Clark
+Email: akc1004@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Thu: 3:40 - 5:00
+Number of possible times: 2
+Mon: 2:40 - 4:00
+Thu: 2:10 - 3:40
+Name: Riley McDonald
+Email: ram1007@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 11:10 - 12:30
+Number of possible times: 2
+Tue: 3:10 - 4:30
+Thu: 11:10 - 12:30
+Name: Linda Mamakos
+Email: lindamamakos@gmail.com
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 5:40 - 7:00
+Number of possible times: 0
+Name: Sharil Deleon
+Email: snd1002@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 8
+Mon: 2:40 - 4:00
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Wed: 3:10 - 4:30
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Number of possible times: 1
+Tue: 9:40 - 11:00
+Name: Emily Balcom
+Email: eab1009@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 2
+Wed: 12:10 - 1:30
+Thu: 1:10 - 2:30
+Number of possible times: 2
+Thu: 2:10 - 3:40
+Thu: 3:40 - 5:00
+Name: Carley Slade
+Email: cas1@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 3
+Mon: 2:40 - 4:00
+Tue: 5:40 - 7:00
+Thu: 9:10 - 10:30
+Number of possible times: 2
+Wed: 11:10 - 12:30
+Thu: 1:10 - 2:30
+Name: Stephanie Pagan
+Email: sgp2000@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 1
+Tue: 2:10 - 3:30
+Number of possible times: 1
+Tue: 12:40 - 2:00
+Name: Emily Berry
+Email: esb1003@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 11:10 - 12:30
+Number of possible times: 3
+Tue: 12:40 - 2:00
+Wed: 3:10 - 4:30
+Thu: 11:10 - 12:30
+Name: Victoria Curtin
+Email: vc1009@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Wed: 11:10 - 12:30
+Number of possible times: 20
+Mon: 2:40 - 4:00
+Mon: 4:40 - 6:00
+Tue: 9:40 - 11:00
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 12:40 - 2:00
+Tue: 2:10 - 3:30
+Tue: 3:10 - 4:30
+Tue: 3:40 - 5:00
+Tue: 5:40 - 7:00
+Wed: 12:10 - 1:30
+Wed: 3:10 - 4:30
+Wed: 4:10 - 5:30
+Thu: 9:10 - 10:30
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Thu: 2:10 - 3:40
+Thu: 3:40 - 5:00
+Name: Amada Guapisaca
+Email: ag1066@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 0
+Number of possible times: 1
+Tue: 9:40 - 11:00
+Name: Kayla Carlisle
+Email: kec2003@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 1
+Tue: 5:40 - 7:00
+Number of possible times: 1
+Thu: 9:10 - 10:30
+Name: Elizabeth Sheridan
+Email: ems2000@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 2
+Tue: 12:40 - 2:00
+Thu: 12:40 - 2:00
+Number of possible times: 4
+Tue: 2:10 - 3:30
+Wed: 11:10 - 12:30
+Thu: 1:10 - 2:30
+Thu: 2:10 - 3:40
+Name: Abigail Chase
+Email: ajc1009@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 3:10 - 4:30
+Number of possible times: 1
+Mon: 2:40 - 4:00
+Name: Li Zekun
+Email: zl10@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 5
+Mon: 2:40 - 4:00
+Tue: 3:10 - 4:30
+Thu: 9:10 - 10:30
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Number of possible times: 7
+Mon: 4:40 - 6:00
+Tue: 9:40 - 11:00
+Tue: 12:40 - 2:00
+Tue: 3:40 - 5:00
+Tue: 5:40 - 7:00
+Thu: 12:40 - 2:00
+Thu: 3:40 - 5:00
+Name: Madeline Juffras
+Email: majuffras@gmail.com
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 3
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Thu: 1:10 - 2:30
+Number of possible times: 0
+Name: Emily Mariano
+Email: ejm2007@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 1
+Thu: 2:10 - 3:40
+Number of possible times: 1
+Thu: 1:10 - 2:30
+Name: Hannah Coco
+Email: hmc1001@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 4
+Mon: 2:40 - 4:00
+Tue: 5:40 - 7:00
+Thu: 11:10 - 12:30
+Thu: 3:40 - 5:00
+Number of possible times: 17
+Mon: 4:40 - 6:00
+Tue: 9:40 - 11:00
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 12:40 - 2:00
+Tue: 2:10 - 3:30
+Tue: 3:10 - 4:30
+Tue: 3:40 - 5:00
+Wed: 11:10 - 12:30
+Wed: 12:10 - 1:30
+Wed: 3:10 - 4:30
+Wed: 4:10 - 5:30
+Thu: 9:10 - 10:30
+Thu: 10:40 - 12:00
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Thu: 2:10 - 3:40
+Name: Sarah Henry
+Email: srh1009@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 2
+Mon: 2:40 - 4:00
+Tue: 2:10 - 3:30
+Number of possible times: 8
+Mon: 4:40 - 6:00
+Tue: 9:40 - 11:00
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 12:40 - 2:00
+Tue: 3:10 - 4:30
+Tue: 3:40 - 5:00
+Tue: 5:40 - 7:00
+Name: Emily Dambach
+Email: eld1002@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 2:10 - 3:30
+Number of possible times: 0
+Name: Brianna Looney
+Email: bml1006@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 3
+Mon: 2:40 - 4:00
+Tue: 2:10 - 3:30
+Tue: 3:10 - 4:30
+Number of possible times: 1
+Tue: 3:40 - 5:00
+Name: Jillian Ward
+Email: jw1044@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Mon: 2:40 - 4:00
+Number of possible times: 1
+Mon: 4:40 - 6:00
+Name: Andrew Meagher
+Email: apm2005@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 1
+Wed: 3:10 - 4:30
+Number of possible times: 2
+Wed: 4:10 - 5:30
+Thu: 9:10 - 10:30
+Name: Stephanie Baldwin
+Email: snb1000@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 10:40 - 1:00
+Number of possible times: 1
+Tue: 12:40 - 2:00
+Name: Hayley Lapierre
+Email: hcl1002@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Thu: 3:40 - 5:00
+Number of possible times: 1
+Thu: 2:10 - 3:40
+Name: Haleigh Peavey
+Email: hmp2002@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 1
+Tue: 11:10 - 12:30
+Number of possible times: 1
+Thu: 11:10 - 12:30
+Name: Natasha Richardson
+Email: nmr1007@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 4
+Tue: 5:40 - 7:00
+Wed: 11:10 - 12:30
+Wed: 12:10 - 1:30
+Thu: 12:40 - 2:00
+Number of possible times: 2
+Mon: 4:40 - 6:00
+Tue: 12:40 - 2:00
+Name: Lindsay Bosworth 
+Email: lrb1003@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Mon: 2:40 - 4:00
+Number of possible times: 3
+Mon: 4:40 - 6:00
+Thu: 2:10 - 3:40
+Thu: 3:40 - 5:00
+Name: Katherine Dombroski
+Email: kld1004@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Mon: 2:40 - 4:00
+Number of possible times: 2
+Mon: 4:40 - 6:00
+Tue: 9:40 - 11:00
+Name: Erica Lyster
+Email: eml1007@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 9
+Tue: 9:40 - 11:00
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 12:40 - 2:00
+Tue: 2:10 - 3:30
+Wed: 3:10 - 4:30
+Wed: 4:10 - 5:30
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Number of possible times: 12
+Mon: 2:40 - 4:00
+Mon: 4:40 - 6:00
+Tue: 3:10 - 4:30
+Tue: 3:40 - 5:00
+Tue: 5:40 - 7:00
+Wed: 11:10 - 12:30
+Wed: 12:10 - 1:30
+Thu: 9:10 - 10:30
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Thu: 2:10 - 3:40
+Thu: 3:40 - 5:00
+Name: Jessica  Gates 
+Email: jg1039@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Mon: 2:40 - 4:00
+Number of possible times: 0
+Name: Catherine McComish
+Email: cm1102@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Mon: 2:40 - 4:00
+Number of possible times: 0
+Name: Andrew Salant
+Email: as1105@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 4
+Tue: 12:40 - 2:00
+Tue: 2:10 - 3:30
+Thu: 11:10 - 12:30
+Thu: 12:40 - 2:00
+Number of possible times: 17
+Mon: 2:40 - 4:00
+Mon: 4:40 - 6:00
+Tue: 9:40 - 11:00
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 3:10 - 4:30
+Tue: 3:40 - 5:00
+Tue: 5:40 - 7:00
+Wed: 11:10 - 12:30
+Wed: 12:10 - 1:30
+Wed: 3:10 - 4:30
+Wed: 4:10 - 5:30
+Thu: 9:10 - 10:30
+Thu: 10:40 - 12:00
+Thu: 1:10 - 2:30
+Thu: 2:10 - 3:40
+Thu: 3:40 - 5:00
+Name: Noah Kaplan
+Email: nak1009@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 2
+Mon: 2:40 - 4:00
+Tue: 3:10 - 4:30
+Number of possible times: 1
+Wed: 3:10 - 4:30
+Name: Audrey Berenson
+Email: akb1005@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 7
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 12:40 - 2:00
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Number of possible times: 2
+Tue: 9:40 - 11:00
+Thu: 9:10 - 10:30
+Name: Danya Gaudet
+Email: deg1002@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Thu: 11:10 - 12:30
+Number of possible times: 2
+Tue: 11:10 - 12:30
+Wed: 11:10 - 12:30
+Name: Amanda Walsh
+Email: acw1007@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 2
+Mon: 2:40 - 4:00
+Mon: 4:40 - 6:00
+Number of possible times: 8
+Tue: 9:40 - 11:00
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 12:40 - 2:00
+Tue: 2:10 - 3:30
+Tue: 3:10 - 4:30
+Tue: 3:40 - 5:00
+Tue: 5:40 - 7:00
+Name: Abigail Concannon
+Email: abbyconcannon@comcast.net
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 11:10 - 12:30
+Number of possible times: 2
+Mon: 2:40 - 4:00
+Thu: 10:40 - 12:00
+Name: Nicolette Bonaquist
+Email: nbonaquist777@gmail.com
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 2
+Wed: 11:10 - 12:30
+Thu: 1:10 - 2:30
+Number of possible times: 2
+Mon: 2:40 - 4:00
+Thu: 12:40 - 2:00
+Name: Sabrina Vail
+Email: sev2004@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 1
+Thu: 12:40 - 2:00
+Number of possible times: 3
+Tue: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Thu: 2:10 - 3:40
+Name: Colleen Kennedy
+Email: cmt323@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 3
+Sex: n/a
+Number of good times: 6
+Tue: 3:10 - 4:30
+Tue: 3:40 - 5:00
+Tue: 5:40 - 7:00
+Wed: 3:10 - 4:30
+Wed: 4:10 - 5:30
+Thu: 3:40 - 5:00
+Number of possible times: 15
+Mon: 2:40 - 4:00
+Mon: 4:40 - 6:00
+Tue: 9:40 - 11:00
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 12:40 - 2:00
+Tue: 2:10 - 3:30
+Wed: 11:10 - 12:30
+Wed: 12:10 - 1:30
+Thu: 9:10 - 10:30
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Thu: 2:10 - 3:40
+Name: Karissa Braga
+Email: keb1015@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 0
+Number of possible times: 1
+Tue: 2:10 - 3:30
+Name: Joseph Haviland
+Email: jeh2001@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 12:40 - 2:00
+Number of possible times: 1
+Tue: 11:10 - 12:30
+Name: Tina Sergi
+Email: tes1006@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Thu: 9:10 - 10:30
+Number of possible times: 1
+Thu: 3:40 - 5:00
+Name: Sophia Gottlieb
+Email: sqg1000@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 0
+Number of possible times: 2
+Mon: 2:40 - 4:00
+Mon: 4:40 - 6:00
+Name: Allison Prendergast
+Email: amp1024@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 4
+Tue: 9:40 - 11:00
+Tue: 10:40 - 1:00
+Tue: 3:10 - 4:30
+Thu: 10:40 - 12:00
+Number of possible times: 1
+Thu: 9:10 - 10:30
+Name: Alexis Lambert
+Email: all1009@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 2
+Tue: 5:40 - 7:00
+Wed: 12:10 - 1:30
+Number of possible times: 2
+Tue: 12:40 - 2:00
+Thu: 12:40 - 2:00
+Name: Joshua Lussier
+Email: jrl1008@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 5:40 - 7:00
+Number of possible times: 2
+Mon: 2:40 - 4:00
+Wed: 3:10 - 4:30
+Name: Emily Grace Sagnella
+Email: es14@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 1
+Tue: 12:40 - 2:00
+Number of possible times: 2
+Wed: 3:10 - 4:30
+Wed: 4:10 - 5:30
+Name: Michael Moheban
+Email: msm2008@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 1
+Wed: 11:10 - 12:30
+Number of possible times: 1
+Thu: 3:40 - 5:00
+Name: Alexander Ellsworth
+Email: ace1001@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 3
+Tue: 3:10 - 4:30
+Tue: 3:40 - 5:00
+Thu: 3:40 - 5:00
+Number of possible times: 3
+Tue: 2:10 - 3:30
+Thu: 10:40 - 12:00
+Thu: 2:10 - 3:40
+Name: Ellen Galvao
+Email: egv24@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 5
+Sex: n/a
+Number of good times: 1
+Thu: 12:40 - 2:00
+Number of possible times: 2
+Mon: 2:40 - 4:00
+Thu: 11:10 - 12:30
+Name: Yianna Rhodes
+Email: ymr2000@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 0
+Number of possible times: 0
+Name: Kiley Kennedy
+Email: kbk1003@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 6
+Mon: 2:40 - 4:00
+Tue: 9:40 - 11:00
+Tue: 12:40 - 2:00
+Wed: 3:10 - 4:30
+Thu: 2:10 - 3:40
+Thu: 3:40 - 5:00
+Number of possible times: 4
+Tue: 2:10 - 3:30
+Wed: 4:10 - 5:30
+Thu: 9:10 - 10:30
+Thu: 1:10 - 2:30
+Name: Kathryn Baker
+Email: kb1076@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 5:40 - 7:00
+Number of possible times: 0
+Name: Alexander Tognazzi
+Email: tognazzia@comcast.net
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Thu: 3:40 - 5:00
+Number of possible times: 1
+Thu: 2:10 - 3:40
+Name: Ashley Bonnette
+Email: aeb1009@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 4
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 12:40 - 2:00
+Tue: 2:10 - 3:30
+Number of possible times: 5
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Thu: 2:10 - 3:40
+Name: MARA JAFFARIAN
+Email: met84@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 5
+Sex: n/a
+Number of good times: 1
+Wed: 12:10 - 1:30
+Number of possible times: 0
+Name: Jack Born
+Email: jgx45@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 4
+Sex: n/a
+Number of good times: 9
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 12:40 - 2:00
+Thu: 9:10 - 10:30
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Thu: 2:10 - 3:40
+Number of possible times: 3
+Tue: 5:40 - 7:00
+Wed: 4:10 - 5:30
+Thu: 3:40 - 5:00
+Name: Shealyn  Redmond
+Email: smr1004@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 0
+Number of possible times: 1
+Wed: 11:10 - 12:30
+Name: Olivia Guzman
+Email: Ojg1000@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 0
+Number of possible times: 3
+Mon: 2:40 - 4:00
+Mon: 4:40 - 6:00
+Tue: 9:40 - 11:00
+Name: Elise Laflamme
+Email: eql1000@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 0
+Number of possible times: 0
+Name: Bethany Cleaver
+Email: blc2003@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Wed: 11:10 - 12:30
+Number of possible times: 0
+Name: Sofia Ragonese
+Email: slr1007@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 2
+Tue: 2:10 - 3:30
+Wed: 12:10 - 1:30
+Number of possible times: 2
+Tue: 12:40 - 2:00
+Wed: 11:10 - 12:30
+Name: Emma Faddoul
+Email: eff1000@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 11
+Mon: 4:40 - 6:00
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 3:10 - 4:30
+Tue: 3:40 - 5:00
+Tue: 5:40 - 7:00
+Wed: 3:10 - 4:30
+Thu: 9:10 - 10:30
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Thu: 3:40 - 5:00
+Number of possible times: 10
+Mon: 2:40 - 4:00
+Tue: 9:40 - 11:00
+Tue: 12:40 - 2:00
+Tue: 2:10 - 3:30
+Wed: 11:10 - 12:30
+Wed: 12:10 - 1:30
+Wed: 4:10 - 5:30
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Thu: 2:10 - 3:40
+Name: Rachel Friedland
+Email: rdf1003@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 2:10 - 3:30
+Number of possible times: 1
+Tue: 3:10 - 4:30
+Name: Victoria Libby
+Email: vml2001@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 1
+Wed: 11:10 - 12:30
+Number of possible times: 0
+Name: Christopher LaSalle
+Email: Cj@lasalles.net
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 2:10 - 3:30
+Number of possible times: 1
+Tue: 3:10 - 4:30
+Name: Delaney Todd
+Email: djt
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Wed: 12:10 - 1:30
+Number of possible times: 1
+Thu: 1:10 - 2:30
+Name: Victoria Markiewicz
+Email: vem2006@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 3
+Sex: n/a
+Number of good times: 1
+Wed: 3:10 - 4:30
+Number of possible times: 2
+Tue: 5:40 - 7:00
+Wed: 4:10 - 5:30
+Name: Tierra Myers
+Email: tem1003@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 0
+Number of possible times: 1
+Mon: 2:40 - 4:00
+Name: Kaitlyn DeChirico
+Email: kmd1025@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Mon: 2:40 - 4:00
+Number of possible times: 2
+Mon: 4:40 - 6:00
+Tue: 2:10 - 3:30
+Name: Michael Goulet
+Email: mro367@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 4
+Sex: n/a
+Number of good times: 3
+Tue: 12:40 - 2:00
+Tue: 2:10 - 3:30
+Thu: 1:10 - 2:30
+Number of possible times: 3
+Thu: 12:40 - 2:00
+Thu: 2:10 - 3:40
+Thu: 3:40 - 5:00
+Name: Ryan Doherty
+Email: rmd1008@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 3
+Tue: 2:10 - 3:30
+Wed: 11:10 - 12:30
+Thu: 9:10 - 10:30
+Number of possible times: 18
+Mon: 2:40 - 4:00
+Mon: 4:40 - 6:00
+Tue: 9:40 - 11:00
+Tue: 10:40 - 1:00
+Tue: 11:10 - 12:30
+Tue: 12:40 - 2:00
+Tue: 3:10 - 4:30
+Tue: 3:40 - 5:00
+Tue: 5:40 - 7:00
+Wed: 12:10 - 1:30
+Wed: 3:10 - 4:30
+Wed: 4:10 - 5:30
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Thu: 2:10 - 3:40
+Thu: 3:40 - 5:00
+Name: Rebecca Philibert
+Email: rmp1006@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 2
+Tue: 10:40 - 1:00
+Tue: 2:10 - 3:30
+Number of possible times: 0
+Name: Avery Van De Water
+Email: alv1002@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Thu: 2:10 - 3:40
+Number of possible times: 1
+Thu: 9:10 - 10:30
+Name: Alyssa Dawidczyk
+Email: asd1005@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 0
+Number of possible times: 1
+Mon: 2:40 - 4:00
+Name: Norella Roche
+Email: nar1008@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 7
+Tue: 9:40 - 11:00
+Tue: 10:40 - 1:00
+Tue: 2:10 - 3:30
+Thu: 9:10 - 10:30
+Thu: 10:40 - 12:00
+Thu: 2:10 - 3:40
+Thu: 3:40 - 5:00
+Number of possible times: 13
+Mon: 2:40 - 4:00
+Mon: 4:40 - 6:00
+Tue: 11:10 - 12:30
+Tue: 12:40 - 2:00
+Tue: 3:10 - 4:30
+Tue: 3:40 - 5:00
+Tue: 5:40 - 7:00
+Wed: 11:10 - 12:30
+Wed: 12:10 - 1:30
+Wed: 3:10 - 4:30
+Thu: 11:10 - 12:30
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Name: Baylee LaBree
+Email: Bl1034@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 0
+Number of possible times: 1
+Wed: 3:10 - 4:30
+Name: Nicole Williamson
+Email: Naw1005@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 4
+Tue: 11:10 - 12:30
+Thu: 9:10 - 10:30
+Thu: 10:40 - 12:00
+Thu: 11:10 - 12:30
+Number of possible times: 2
+Mon: 4:40 - 6:00
+Tue: 10:40 - 1:00
+Name: Kylee Wrath
+Email: kaw1004@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 6
+Tue: 12:40 - 2:00
+Tue: 2:10 - 3:30
+Tue: 3:10 - 4:30
+Thu: 12:40 - 2:00
+Thu: 1:10 - 2:30
+Thu: 2:10 - 3:40
+Number of possible times: 2
+Tue: 9:40 - 11:00
+Thu: 9:10 - 10:30
+Name: Christopher Cleary
+Email: cjc2001@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 3
+Mon: 4:40 - 6:00
+Tue: 5:40 - 7:00
+Wed: 4:10 - 5:30
+Number of possible times: 2
+Wed: 11:10 - 12:30
+Wed: 12:10 - 1:30
+Name: Alexis Boulanger
+Email: akb1008@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Mon: 2:40 - 4:00
+Number of possible times: 0
+Name: Christopher Roberts
+Email: crob97@gmail.com
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Thu: 11:10 - 12:30
+Number of possible times: 1
+Tue: 11:10 - 12:30
+Name: <Unanswered> Coppola
+Email: mcc1014@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Wed: 11:10 - 12:30
+Number of possible times: 0
+Name: Ryan Meaney
+Email: rpm2001@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 2
+Sex: n/a
+Number of good times: 0
+Number of possible times: 0
+Name: Tiffany Driesse
+Email: tmd1011@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 0
+Number of possible times: 2
+Mon: 2:40 - 4:00
+Tue: 5:40 - 7:00
+Name: Joshua Winn
+Email: jdw1006@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 2
+Tue: 2:10 - 3:30
+Thu: 1:10 - 2:30
+Number of possible times: 2
+Mon: 2:40 - 4:00
+Mon: 4:40 - 6:00
+Name: Claudia Beck
+Email: cjb1030@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Thu: 9:10 - 10:30
+Number of possible times: 4
+Mon: 4:40 - 6:00
+Tue: 5:40 - 7:00
+Wed: 11:10 - 12:30
+Wed: 4:10 - 5:30
+Name: Christopher Ziadeh
+Email: cz1008@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 11:10 - 12:30
+Number of possible times: 2
+Tue: 9:40 - 11:00
+Tue: 12:40 - 2:00
+Name: Sara Ocanovic
+Email: so1018@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Tue: 12:40 - 2:00
+Number of possible times: 1
+Thu: 12:40 - 2:00
+Name: Sarah Lafleur
+Email: snl1001@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 3
+Mon: 4:40 - 6:00
+Tue: 5:40 - 7:00
+Wed: 11:10 - 12:30
+Number of possible times: 3
+Mon: 2:40 - 4:00
+Wed: 12:10 - 1:30
+Wed: 4:10 - 5:30
+Name: Melissa Perry
+Email: mnp1006@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 1
+Sex: n/a
+Number of good times: 1
+Wed: 11:10 - 12:30
+Number of possible times: 1
+Wed: 12:10 - 1:30
+Name: Della Burke
+Email: db1000@wildcats.unh.edu
+Lecture: bbinput.download.csv
+Year: 4
+Sex: n/a
+Number of good times: 2
+Tue: 2:10 - 3:30
+Tue: 3:10 - 4:30
+Number of possible times: 0
