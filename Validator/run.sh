@@ -7,7 +7,7 @@ output=$3
 
 if [ "$alg" == "ILDS" ]
 then
-	cat ../Demo/$input ../Demo/$output | java Validate
+	cat ../Files/$input ../Files/$output | java Validate
 else	
-	cat ../Demo/$input ../Demo/$output | java Validate
+	cat ../Files/$input ../Files/$output | java Validate
 fi
