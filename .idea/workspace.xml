@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="708e1525-b35b-4591-a443-7f78ba42c948" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/classFile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/problem_students.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/students" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runSolver.sh" />
+    <list default="true" id="708e1525-b35b-4591-a443-7f78ba42c948" name="Default" comment="Cleaned up unncessary files. Now overwrites student file by default.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileIO/make.sh" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Demo/ILDS.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FileIO/CB1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FileIO/CB8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FileIO/KW10.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FileIO/class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FileIO/classFile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FileIO/complete-input-3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FileIO/students" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FileIO/students2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Solver/allTogether.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Solver/class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Solver/complete-input-2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Solver/complete-input-3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Solver/obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Solver/real-students.orig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Solver/real-students.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Solver/students" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Solver/test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Validator/complete-input" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Validator/complete-input-2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Validator/complete-input-3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Validator/jsSolution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Validator/lastYearSolution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Validator/solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sLocal-Search-master/ILDS.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sLocal-Search-master/add_times" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sLocal-Search-master/add_times_plus_others" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sLocal-Search-master/all" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sLocal-Search-master/complete-input-2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sLocal-Search-master/fake_alltogether" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sLocal-Search-master/input_with_solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sLocal-Search-master/output.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sLocal-Search-master/remove_students" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sLocal-Search-master/results" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileIO/BlackboardInput.csv" afterPath="$PROJECT_DIR$/Files/BlackboardInput.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileIO/bbinput.download.csv" afterPath="$PROJECT_DIR$/Files/bbinput.download.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileIO/StudentIO.class" afterPath="$PROJECT_DIR$/FileIO/StudentIO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solver/Solver.jar" afterPath="$PROJECT_DIR$/Solver/Solver.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo/run.sh" afterPath="$PROJECT_DIR$/Demo/run.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileIO/StudentIO.java" afterPath="$PROJECT_DIR$/FileIO/StudentIO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/googleformresponses.csv" afterPath="$PROJECT_DIR$/Files/googleformresponses.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/objFile" afterPath="$PROJECT_DIR$/Files/objFile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Validator/run.sh" afterPath="$PROJECT_DIR$/Validator/run.sh" />
     </list>
     <ignored path="TutoringPlacementApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,62 +75,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="students" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Files/students">
+      <file leaf-file-name="StudentIO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FileIO/StudentIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classFile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Files/classFile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="solution" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Files/solution">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27939466">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="complete-input" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Files/complete-input">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="objFile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Files/objFile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="complete-input-3" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Validator/complete-input-3">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.33178115">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,18 +102,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FileIO/StudentIO.java" />
         <option value="$PROJECT_DIR$/FileIO/SanityChecker.java" />
         <option value="$PROJECT_DIR$/Files/problem_students.txt" />
         <option value="$PROJECT_DIR$/make.sh" />
         <option value="$PROJECT_DIR$/FileIO/make.sh" />
         <option value="$PROJECT_DIR$/Demo/make.sh" />
         <option value="$PROJECT_DIR$/runFileIO.sh" />
-        <option value="$PROJECT_DIR$/Files/students" />
         <option value="$PROJECT_DIR$/Demo/run.sh" />
         <option value="$PROJECT_DIR$/Files/objFile" />
         <option value="$PROJECT_DIR$/Validator/run.sh" />
         <option value="$PROJECT_DIR$/runSolver.sh" />
+        <option value="$PROJECT_DIR$/Files/students" />
+        <option value="$PROJECT_DIR$/FileIO/StudentIO.java" />
       </list>
     </option>
   </component>
@@ -193,20 +177,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Validator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -221,7 +191,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
+              <option name="myItemId" value="FileIO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,28 +503,34 @@
       <option name="project" value="LOCAL" />
       <updated>1452540134082</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added run scripts for solver">
+      <created>1453825443668</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1453825443668</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1670" height="956" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497006" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497006" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -579,7 +555,9 @@
     <MESSAGE value="Added files directory" />
     <MESSAGE value="Added make scripts&#10;" />
     <MESSAGE value="Addded make and run scripts for FileIO. Added all files into one repo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Addded make and run scripts for FileIO. Added all files into one repo." />
+    <MESSAGE value="Added run scripts for solver" />
+    <MESSAGE value="Cleaned up unncessary files. Now overwrites student file by default." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up unncessary files. Now overwrites student file by default." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -597,6 +575,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -632,20 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.017462166">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/StudentIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="32" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Files/students">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -658,23 +623,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runFileIO.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/solver.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Validator/complete-input-3">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -686,14 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Files/objFile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -722,19 +663,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Files/classFile">
+    <entry file="file://$PROJECT_DIR$/Files/solution">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/students">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/classFile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12223516">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Files/solution">
+    <entry file="file://$PROJECT_DIR$/Files/objFile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27939466">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.15715949">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIO/StudentIO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runFileIO.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIO/StudentIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33178115">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

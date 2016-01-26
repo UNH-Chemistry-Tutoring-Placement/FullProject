@@ -72,7 +72,6 @@ public class StudentIO {
                 groupTimes.add( fields[i] );
             }
             Student s;
-            System.out.println( "Before new lines read ");
             while( (line = fileScanner.readLine()) != null ){
 
                 s = parseGoogleLine(line);
@@ -279,7 +278,7 @@ public class StudentIO {
 
         try {
             File newFile = new File(name);
-            if ( newFile.createNewFile()) {
+            //if ( newFile.createNewFile()) {
                 BufferedWriter fileOut = new BufferedWriter( new FileWriter( newFile ) );
                 fileOut.append("Student Info Format: " + version + '\n');
                 fileOut.append("Description: " + description + '\n');
@@ -289,9 +288,9 @@ public class StudentIO {
                 }
                 fileOut.close();
                 System.out.println("Student file written to " + name);
-            }
-            else
-                overwrite(newFile);
+            //}
+           // else
+              //  overwrite(newFile);
 
         } catch (IOException io ){
             System.out.println( "StudentIO Exception " + io.getMessage() );
@@ -362,6 +361,8 @@ public class StudentIO {
                 fileWriter.write("Time: " + groupTimes.get(i) + "\n" );
             }
             fileWriter.close();
+            System.out.println("Class Template written to ../Files/" + classFile.getName() );
+            System.out.println("Don't forget to fill in necessary information!");
         } catch( IOException e ){
             System.err.println( "IO Exception when making class template: " + e.getMessage() );
         }
