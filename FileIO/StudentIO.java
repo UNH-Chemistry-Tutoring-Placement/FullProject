@@ -33,7 +33,6 @@ public class StudentIO {
         if( fileNames[0].startsWith("-") ){
             if( fileNames[0].substring(1).equals("bb")){
                 googleForm = false;
-                System.out.println( "here" );
                 _fileNames = Arrays.copyOfRange( _fileNames, 1, _fileNames.length );
             }
         }
@@ -66,17 +65,18 @@ public class StudentIO {
             fileScanner = new BufferedReader( new InputStreamReader( new FileInputStream(file), "utf-8"));
 
             String line = fileScanner.readLine();
+            line = line.replaceAll("\"", "");
 
             String[] fields = line.split(",");
-            for( int i = 7; i < fields.length - 2; i++ ){
+            for( int i = 8; i < fields.length - 1; i++ ){
                 groupTimes.add( fields[i] );
             }
             Student s;
             while( (line = fileScanner.readLine()) != null ){
 
                 s = parseGoogleLine(line);
-
-                students.add( s );
+                if( s != null )
+                    students.add( s );
             }
             numberOfStudents = students.size();
             return students;
@@ -96,13 +96,15 @@ public class StudentIO {
 
     private Student parseGoogleLine( String line ){
 
+        line = line.replaceAll("\"", "");
         String[] fields = line.split(",");
         String firstName = fields[1];
-        String lastName = fields[2];
-        String email = fields[3];
-        String gender = fields[4];
-        int year = resolveYear(fields[5]);
-        String professor = fields[6];
+        String lastName = fields[2] + "(" + fields[3] + ")";
+        String unhID = fields[3];
+        String email = fields[4];
+        String gender = fields[5];
+        int year = resolveYear(fields[6]);
+        String professor = fields[7];
 
         if( !professors.contains(professor) )
             professors.add( professor );
@@ -110,21 +112,22 @@ public class StudentIO {
         ArrayList<String> goodTimes = new ArrayList<>();
         ArrayList<String> possibleTimes = new ArrayList<>();
 
-
         for( int i = 0; i < groupTimes.size(); i++ ){
-            if( fields[ i + 7 ].equals("Good") ){
+            if( fields[ i + 8 ].toLowerCase().equals("preferred") ){
                 goodTimes.add( groupTimes.get(i) );
             }
-            if( fields[i + 7].equals("Possible")){
+            if( fields[i + 8].toLowerCase().equals("possible")){
                 possibleTimes.add(groupTimes.get(i));
             }
         }
         String comments = "";
-        for( int i = 7 + groupTimes.size(); i < fields.length; i++ ) {
+        for( int i = 8 + groupTimes.size(); i < fields.length; i++ ) {
             comments += fields[i];
         }
         Student student = new Student( firstName + " " + lastName, email, professor,gender, year, goodTimes, possibleTimes );
         student.setComment(comments);
+
+        //System.out.println( student );
 
         if( sanityChecker.addToRoster(student) ){
             return student;
@@ -301,7 +304,9 @@ public class StudentIO {
     private void printToFile( ArrayList<Student> students, Writer out ){
         try {
             for (Student student : students) {
-                out.append(student.print());
+                // student will be null if no possible or prefferred times are chosen
+                if( student != null )
+                    out.append(student.print());
                 //out.append('\n');
             }
         } catch (IOException io ){

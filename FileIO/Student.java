@@ -44,6 +44,11 @@ public class Student {
 
     }
 
+    @Override
+    public String toString(){
+        return print();
+    }
+
     public String getName(){
         return _name;
     }

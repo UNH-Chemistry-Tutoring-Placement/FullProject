@@ -149,8 +149,7 @@ public class Validate {
                     malesInGroup++;
                 if( studentSex.equals( "Female" ))
                     femalesInGroup++;
-
-                if( studentFile.getPossibleTimes(studentName).contains(time.getKey().substring(0,time.getKey().indexOf(","))) ){
+                if( studentFile.getPossibleTimes(studentName).contains(time.getKey())){
                     penalty += possibleChoicePenalty;
                     if(debug)
                         System.out.println( "Applied possible time penalty");
@@ -178,12 +177,21 @@ public class Validate {
             System.out.println( "TA email: " + taEmailTime.getValue() + " | Group Time: " + taEmailTime.getKey());
             System.out.println("--------------------------------------");
             for( String studentEmail: groups.get(taEmailTime) ){
-                System.out.printf( "%-25s %-25s\n", studentFile.getStudentNameByEmail(studentEmail), studentEmail);
+                System.out.printf( "%-25s %-25s %-25s\n", studentFile.getStudentNameByEmail(studentEmail.toLowerCase().trim()), studentEmail, printPreference(studentFile, studentEmail,taEmailTime.getKey()));
                 if( debug )
                     System.out.println( "Professor: " + studentFile.getStudentProfessor(studentEmail));
             }
             System.out.println();
         }
+    }
+
+    private String printPreference( StudentFile file, String email, String time ){
+        if( file.getPossibleTimes(email).contains(time))
+            return "(possible)";
+        else if( file.getGoodTimes(email).contains(time))
+            return "(good)";
+        else
+            return "(impossible)";
     }
 
     public static void main( String[] args ){

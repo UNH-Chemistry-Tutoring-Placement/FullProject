@@ -177,6 +177,7 @@ public class FileIO {
 		
 		in.skip("Number of students:");
 		int numStudents = in.nextInt();
+
 		in.skip("\n");
 		for(int i = 0; i < numStudents; i++){
 			in.skip("Name:");
@@ -227,6 +228,7 @@ public class FileIO {
 			} else{
 				students.add(s);
 			}
+
 		}
 	}
 	

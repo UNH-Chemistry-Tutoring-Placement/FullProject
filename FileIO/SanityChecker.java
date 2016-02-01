@@ -13,9 +13,9 @@ public class SanityChecker {
 
     private String emailError = "Incorrect email format ->";
     private String yearError = "Incorrect year format ->";
-    private String goodTimeWarning = "No good times were selected";
+    private String goodTimeWarning = "No preferred times were selected";
     private String possibleTimeWarning = "No possible times selected";
-    private String noTimesError = "No good or possible times selected";
+    private String noTimesError = "No preferred or possible times selected";
 
 
     public SanityChecker( String fileName ){

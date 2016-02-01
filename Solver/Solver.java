@@ -12,80 +12,81 @@ import java.util.TimerTask;
  *
  */
 public class Solver {
-	
+
 	/**
 	 * A sorted list of students
 	 */
 	private PriorityQueue<Student> students;
-	
+
 	/**
 	 * The current solution cost
 	 */
 	private int solutionCost;
-	
+
 	/**
 	 * The FileIO object that reads the input file
 	 * and stores information in data structures.
 	 */
 	private FileIO fileIO;
-	
+
 	/**
 	 * The timeout for the program
 	 */
 	private int timeout = 0;
-	
+
 	/**
 	 * Whether or not this program is being tested locally
 	 */
 	private static boolean localTesting = true;
-	
+
 	/**
 	 * Constructor
 	 */
 	public Solver(){
 		getInfo();
 	}
-	
+
 	/**
 	 * Constructor
 	 */
 	public Solver(int timeout){
-	    this.timeout = timeout;
+		this.timeout = timeout;
 		getInfo();
 	}
-	
+
 	/**
-	 * A method that spawns an ILDS object and calls its solve method. 
+	 * A method that spawns an ILDS object and calls its solve method.
 	 * If other algorithms were used, this would be a good place to
 	 * call their solve methods.
 	 */
 	public void solve(){
 		/* Create a depth first search instance */
-		ILDS dfs = new ILDS( 
-				students, 
+		ILDS dfs = new ILDS(
+				students,
 				fileIO.getGroupTimes());
-		
+
 		if(timeout != 0){
 			Thread thread = new Thread(){
 				public void run(){
 					Timer timer = new Timer();
 					timer.schedule(new TimerTask() {
-						  @Override
-						  public void run() {
-							  dfs.end();
-							  solutionCost = dfs.getSolutionCost();
-						  }
-						}, timeout);
+						@Override
+						public void run() {
+
+							dfs.end();
+						}
+					}, timeout);
 				}
-		    };
-		    thread.start();
+			};
+			thread.start();
 		}
-	    
+
 		/* Solve and print the solution */
 		dfs.solve();
+		solutionCost = dfs.getSolutionCost();
 		printStudentSolution(dfs.getSolution());
 	}
-	
+
 	/**
 	 * Parse input and store results into FileInfo
 	 */
@@ -94,7 +95,7 @@ public class Solver {
 		fileIO.getInfo();
 		students = fileIO.getStudents();
 	}
-	
+
 	/**
 	 * Print the student solution
 	 * @param studs
@@ -121,19 +122,19 @@ public class Solver {
 	 * @param args
 	 */
 	public static void main(String[] args){
-		
+
 		/* Populate initial world state */
 		//String filename = "test.txt";
 		//String filename = "bigTest";
 		//String filename = "real-students.txt";
 		String filename = "remove_students";
-        //String filename = "add_times";
-		
+		//String filename = "add_times";
+
 		if(localTesting){
 			try {
 				System.setIn(new FileInputStream(filename));
 			} catch (FileNotFoundException e) {
-				
+
 			}
 		}
 		Solver s = null;

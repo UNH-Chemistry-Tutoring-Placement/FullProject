@@ -1,10 +1,9 @@
-var=$#
-string=""
+#!/usr/bin/env bash
 
-while [ $# -gt 0 ]
-do
-  string="$string $1"
-  shift
-done
 
-java -cp Solver.jar Solver $string 
+alg=$1
+input=$2
+output=$3
+timeout=$4
+
+java Solver 10 < $input

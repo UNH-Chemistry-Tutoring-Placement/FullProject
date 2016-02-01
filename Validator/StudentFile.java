@@ -117,7 +117,7 @@ public class StudentFile {
 
     public String printAllStudentInfo( String name ){
 
-        if( !studentInfo.containsKey(name) ){
+        if( !studentInfo.containsKey(name.trim()) ){
             System.err.println( name + " not found in records.");
             return "";
         }
@@ -137,6 +137,7 @@ public class StudentFile {
     }
 
     public String getStudentNameByEmail( String email ){
+        email = email.toLowerCase();
         if( studentInfoByEmail.containsKey(email) )
             return studentInfoByEmail.get(email).get(nameKey);
         System.err.println( email + " not found in records. (name by email)" );
@@ -144,7 +145,7 @@ public class StudentFile {
     }
 
     public String getStudentEmail( String name ){
-
+        name = name.toLowerCase();
         if( studentInfo.containsKey(name) )
             return studentInfo.get(name).get(emailKey);
         if( studentInfoByEmail.containsKey(name))
@@ -154,6 +155,7 @@ public class StudentFile {
     }
 
     public String getStudentProfessor( String name ){
+        name = name.toLowerCase();
         if( studentInfo.containsKey(name))
             return studentInfo.get(name).get(professorKey);
         if( studentInfoByEmail.containsKey(name))
@@ -163,6 +165,7 @@ public class StudentFile {
     }
 
     public String getStudentYear( String name ){
+        name = name.toLowerCase();
         if( studentInfo.containsKey(name))
             return studentInfo.get(name).get(yearKey);
         if( studentInfoByEmail.containsKey(name))
@@ -172,6 +175,7 @@ public class StudentFile {
     }
 
     public String getStudentSex( String name ){
+        name = name.toLowerCase();
         if( studentInfo.containsKey(name))
             return studentInfo.get(name).get(sexKey);
         if( studentInfoByEmail.containsKey(name))
@@ -181,6 +185,7 @@ public class StudentFile {
     }
 
     public int getStudentNumGoodTimes(String name){
+        name = name.toLowerCase();
         if( studentInfo.containsKey(name))
             return studentGoodTimes.get(name).size();
         if( studentInfoByEmail.containsKey(name))
@@ -190,6 +195,7 @@ public class StudentFile {
     }
 
     public int getStudentNumPossibleTimes( String name ){
+        name = name.toLowerCase();
         if( studentInfo.containsKey(name))
             return studentPossibleTimes.get(name).size();
         if( studentInfoByEmail.containsKey(name))
@@ -199,6 +205,7 @@ public class StudentFile {
     }
 
     public ArrayList<String> getPossibleTimes( String name ){
+        name = name.toLowerCase();
         if( studentPossibleTimes.containsKey(name))
             return studentPossibleTimes.get(name);
         if( studentInfoByEmail.containsKey(name))
@@ -208,6 +215,7 @@ public class StudentFile {
     }
 
     public ArrayList<String> getGoodTimes( String name ){
+        name = name.toLowerCase();
         if( studentGoodTimes.containsKey(name))
             return studentGoodTimes.get(name);
         if( studentInfoByEmail.containsKey(name))
