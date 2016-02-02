@@ -77,7 +77,6 @@ public class SolutionFile {
     private void parseStudents( Scanner lineScanner ){
 
         for( int i = 0; i < numberOfStudents; i++ ){
-
             String studentName = lineScanner.nextLine().trim();
             String studentPlacement = lineScanner.nextLine().trim();
             String taEmail = lineScanner.nextLine().trim();

@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
+import java.util.*;
 
 public class StudentFile {
 
@@ -223,6 +224,16 @@ public class StudentFile {
         System.err.println( name + " not found in records.");
         return new ArrayList<>();
 
+    }
+
+    public ArrayList<String> getAllStudentNames(){
+        ArrayList<String> students = new ArrayList<>();
+        Iterator<String> mapIter = studentInfo.keySet().iterator();
+        while( mapIter.hasNext() ){
+            String name = mapIter.next();
+            students.add(name.toLowerCase());
+        }
+        return students;
     }
 
     public static void main( String[] args ){

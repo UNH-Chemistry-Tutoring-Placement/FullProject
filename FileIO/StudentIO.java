@@ -68,6 +68,7 @@ public class StudentIO {
             line = line.replaceAll("\"", "");
 
             String[] fields = line.split(",");
+            // This needs to be fields.length. Changed to accomadate off by one error for local search
             for( int i = 8; i < fields.length - 1; i++ ){
                 groupTimes.add( fields[i] );
             }

@@ -9,7 +9,7 @@ timeout=$4
 if [ "$alg" == "Local" ]
 then
     cd ../sLocal-Search-master/
-    node slocalsearch.js $timeout "$output" < "$input"
+    node slocalsearch.js $timeout "$output" "regular" < "$input"
     cd ../Validator
     ./run.sh $alg $input $output
 else
@@ -17,5 +17,4 @@ else
     ./run.sh $timeout $input > $output
     cd ../Validator
     ./run.sh $alg $input $output
-
 fi

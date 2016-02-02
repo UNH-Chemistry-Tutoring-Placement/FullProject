@@ -28,6 +28,7 @@ public class Validate {
             while ((line = reader.readLine()) != null) {
                 if( !line.startsWith("#"))
                     fullFile += line + "\n";
+                line.replaceAll(",","");
             }
             String[] split1 = fullFile.split(classHeader);
             String[] split2 = split1[1].split(studentHeader);
@@ -171,17 +172,19 @@ public class Validate {
 
         HashMap<Pair<String,String>, ArrayList<String>> groups = solutionFile.getGroups();
         Iterator<Pair<String,String>> mapIter = groups.keySet().iterator();
-
+        int count = 0;
         while( mapIter.hasNext() ){
             Pair<String,String> taEmailTime = mapIter.next();
             System.out.println( "TA email: " + taEmailTime.getValue() + " | Group Time: " + taEmailTime.getKey());
             System.out.println("--------------------------------------");
             for( String studentEmail: groups.get(taEmailTime) ){
-                System.out.printf( "%-25s %-25s %-25s\n", studentFile.getStudentNameByEmail(studentEmail.toLowerCase().trim()), studentEmail, printPreference(studentFile, studentEmail,taEmailTime.getKey()));
+                count++;
+                System.out.printf( "%-30s %-30s %-30s\n", studentFile.getStudentNameByEmail(studentEmail.toLowerCase().trim()), studentEmail, printPreference(studentFile, studentEmail,taEmailTime.getKey()));
                 if( debug )
                     System.out.println( "Professor: " + studentFile.getStudentProfessor(studentEmail));
             }
             System.out.println();
+            System.out.println("count: " + count);
         }
     }
 
