@@ -1,8 +1,6 @@
+package FileIO;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Scanner;
-import java.util.Arrays;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -16,15 +14,17 @@ public class StudentIO {
     private HashMap<String, ArrayList<Student>> allLectures;
     private int numberOfStudents = 0;
     private SanityChecker sanityChecker;
-    private String logFileName = "../Files/problem_students.txt";
+    private String logFileName = "./Files/problem_students.txt";
     boolean googleForm = true; // use blackboard if false
     private ArrayList<String> groupTimes;
     private ArrayList<String> professors;
+    private Hashtable<String,Student> studentNames;
 
     //+++++++++++++++++++++++++ Constructors ++++++++++++++++++++++++++
     public StudentIO(String[] fileNames){
 
         professors = new ArrayList<>();
+        studentNames = new Hashtable<>();
 
         _fileNames = fileNames;
         allLectures = new HashMap<>();
@@ -38,7 +38,7 @@ public class StudentIO {
         }
 
         parseAll(_fileNames);
-        produceStudentFile("../Files/students");
+        produceStudentFile("./Files/students");
         sanityChecker.close();
     }
 
@@ -76,10 +76,18 @@ public class StudentIO {
             while( (line = fileScanner.readLine()) != null ){
 
                 s = parseGoogleLine(line);
-                if( s != null )
-                    students.add( s );
+                if( s != null ) {
+                    studentNames.put(s.getName(), s);
+                }
             }
-            numberOfStudents = students.size();
+            numberOfStudents = studentNames.size();
+
+            Enumeration<Student> studentKeys = studentNames.elements();
+
+           while(studentKeys.hasMoreElements()){
+               students.add(studentKeys.nextElement());
+           }
+            System.out.println( numberOfStudents == students.size() );
             return students;
         } catch( FileNotFoundException e){
             System.err.println( "File not found " + e.getMessage());
@@ -350,7 +358,7 @@ public class StudentIO {
     }
 
     public void makeClassTemplateFile(){
-        File classFile = new File( "../Files/classFile" );
+        File classFile = new File( "./Files/classFile" );
         try {
             FileWriter fileWriter = new FileWriter(classFile);
             fileWriter.write("# Auto generated template \n");
@@ -367,7 +375,7 @@ public class StudentIO {
                 fileWriter.write("Time: " + groupTimes.get(i) + "\n" );
             }
             fileWriter.close();
-            System.out.println("Class Template written to ../Files/" + classFile.getName() );
+            System.out.println("Class Template written to ./Files/" + classFile.getName() );
             System.out.println("Don't forget to fill in necessary information!");
         } catch( IOException e ){
             System.err.println( "IO Exception when making class template: " + e.getMessage() );

@@ -179,7 +179,7 @@ public class Validate {
             System.out.println("--------------------------------------");
             for( String studentEmail: groups.get(taEmailTime) ){
                 count++;
-                System.out.printf( "%-30s %-30s %-30s\n", studentFile.getStudentNameByEmail(studentEmail.toLowerCase().trim()), studentEmail, printPreference(studentFile, studentEmail,taEmailTime.getKey()));
+                System.out.printf( "%-28s %-28s %-28s\n", studentFile.getStudentNameByEmail(studentEmail.toLowerCase().trim()), studentEmail, printPreference(studentFile, studentEmail,taEmailTime.getKey()));
                 if( debug )
                     System.out.println( "Professor: " + studentFile.getStudentProfessor(studentEmail));
             }

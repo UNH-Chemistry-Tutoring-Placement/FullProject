@@ -2,48 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="708e1525-b35b-4591-a443-7f78ba42c948" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/FileIO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/Group.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/GroupComparator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/ILDS.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/Lecture.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/Objective.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/Solver$1$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/Solver$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/Solver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/Student.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/Time.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/BMCB-658-PLTLSpring-2016-2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/OrgoChemPLTLGroupSign-upSpring2016.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/complete-input" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/googleresponses.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/solution1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solver/badStudents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileIO/SanityChecker.class" afterPath="$PROJECT_DIR$/FileIO/SanityChecker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileIO/Student.class" afterPath="$PROJECT_DIR$/FileIO/Student.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileIO/StudentIO.class" afterPath="$PROJECT_DIR$/FileIO/StudentIO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Validator/SolutionFile.class" afterPath="$PROJECT_DIR$/Validator/SolutionFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Validator/StudentFile.class" afterPath="$PROJECT_DIR$/Validator/StudentFile.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Validator/Validate.class" afterPath="$PROJECT_DIR$/Validator/Validate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo/run.sh" afterPath="$PROJECT_DIR$/Demo/run.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileIO/SanityChecker.java" afterPath="$PROJECT_DIR$/FileIO/SanityChecker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileIO/Student.java" afterPath="$PROJECT_DIR$/FileIO/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileIO/StudentIO.java" afterPath="$PROJECT_DIR$/FileIO/StudentIO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/classFile" afterPath="$PROJECT_DIR$/Files/classFile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/objFile" afterPath="$PROJECT_DIR$/Files/objFile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/problem_students.txt" afterPath="$PROJECT_DIR$/Files/problem_students.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/OrgoChemPLTLGroupSign-upSpring2016.csv" afterPath="$PROJECT_DIR$/Files/OrgoChemPLTLGroupSign-upSpring2016.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/complete-input" afterPath="$PROJECT_DIR$/Files/complete-input" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/solution" afterPath="$PROJECT_DIR$/Files/solution" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/students" afterPath="$PROJECT_DIR$/Files/students" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solver/run.sh" afterPath="$PROJECT_DIR$/Solver/run.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Validator/SolutionFile.java" afterPath="$PROJECT_DIR$/Validator/SolutionFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Validator/StudentFile.java" afterPath="$PROJECT_DIR$/Validator/StudentFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TutoringPlacementApplication.iml" afterPath="$PROJECT_DIR$/TutoringPlacementApplication.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Validator/Validate.java" afterPath="$PROJECT_DIR$/Validator/Validate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runSolver.sh" afterPath="$PROJECT_DIR$/runSolver.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sLocal-Search-master/node_modules/FileData.js" afterPath="$PROJECT_DIR$/sLocal-Search-master/node_modules/FileData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sLocal-Search-master/node_modules/FileParsers.js" afterPath="$PROJECT_DIR$/sLocal-Search-master/node_modules/FileParsers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sLocal-Search-master/node_modules/Parser.js" afterPath="$PROJECT_DIR$/sLocal-Search-master/node_modules/Parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sLocal-Search-master/node_modules/Swappers/CoreFunctions.js" afterPath="$PROJECT_DIR$/sLocal-Search-master/node_modules/Swappers/CoreFunctions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sLocal-Search-master/node_modules/Swappers/RegularSwap.js" afterPath="$PROJECT_DIR$/sLocal-Search-master/node_modules/Swappers/RegularSwap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sLocal-Search-master/node_modules/randomAssignment.js" afterPath="$PROJECT_DIR$/sLocal-Search-master/node_modules/randomAssignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sLocal-Search-master/slocalsearch.js" afterPath="$PROJECT_DIR$/sLocal-Search-master/slocalsearch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runFileIO.sh" afterPath="$PROJECT_DIR$/runFileIO.sh" />
     </list>
     <ignored path="TutoringPlacementApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,91 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SolutionFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Validator/SolutionFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="solution1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Files/solution1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665">
-              <caret line="91" column="4" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Validator/StudentFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="223" column="38" selection-start-line="223" selection-start-column="38" selection-end-line="223" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Validator/Validate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="162" column="39" selection-start-line="162" selection-start-column="39" selection-end-line="162" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runSolver.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="runSolver.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runSolver.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.13969733">
               <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/run.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5026455">
-              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slocalsearch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sLocal-Search-master/slocalsearch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Yargs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sLocal-Search-master/node_modules/Yargs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="solution" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Files/solution">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="510" column="0" selection-start-line="510" selection-start-column="0" selection-end-line="510" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,15 +69,11 @@
         <option value="$PROJECT_DIR$/Validator/run.sh" />
         <option value="$PROJECT_DIR$/Solver/FileIO.java" />
         <option value="$PROJECT_DIR$/Files/students" />
-        <option value="$PROJECT_DIR$/runFileIO.sh" />
         <option value="$PROJECT_DIR$/Solver/make.sh" />
-        <option value="$PROJECT_DIR$/FileIO/Student.java" />
         <option value="$PROJECT_DIR$/Files/classFile" />
         <option value="$PROJECT_DIR$/Files/problem_students.txt" />
-        <option value="$PROJECT_DIR$/FileIO/SanityChecker.java" />
         <option value="$PROJECT_DIR$/Solver/ILDS.java" />
         <option value="$PROJECT_DIR$/Solver/Solver.java" />
-        <option value="$PROJECT_DIR$/Files/OrgoChemPLTLGroupSign-upSpring2016.csv" />
         <option value="$PROJECT_DIR$/run.sh" />
         <option value="$PROJECT_DIR$/Files/objFile" />
         <option value="$PROJECT_DIR$/Solver/run.sh" />
@@ -192,18 +81,22 @@
         <option value="$PROJECT_DIR$/sLocal-Search-master/slocalsearch.js" />
         <option value="$PROJECT_DIR$/sLocal-Search-master/node_modules/FileData.js" />
         <option value="$PROJECT_DIR$/sLocal-Search-master/node_modules/FileParsers.js" />
-        <option value="$PROJECT_DIR$/FileIO/StudentIO.java" />
         <option value="$PROJECT_DIR$/Files/complete-input" />
         <option value="$PROJECT_DIR$/sLocal-Search-master/node_modules/randomAssignment.js" />
         <option value="$PROJECT_DIR$/sLocal-Search-master/node_modules/Swappers/CoreFunctions.js" />
         <option value="$PROJECT_DIR$/sLocal-Search-master/node_modules/Swappers/RegularSwap.js" />
         <option value="$PROJECT_DIR$/Files/solution1" />
         <option value="$PROJECT_DIR$/Validator/StudentFile.java" />
-        <option value="$PROJECT_DIR$/Validator/Validate.java" />
         <option value="$PROJECT_DIR$/Validator/SolutionFile.java" />
         <option value="$PROJECT_DIR$/sLocal-Search-master/node_modules/Parser.js" />
         <option value="$PROJECT_DIR$/runSolver.sh" />
         <option value="$PROJECT_DIR$/Demo/run.sh" />
+        <option value="$PROJECT_DIR$/Files/OrgoChemPLTLGroupSign-upSpring2016.csv" />
+        <option value="$PROJECT_DIR$/FileIO/SanityChecker.java" />
+        <option value="$PROJECT_DIR$/FileIO/Student.java" />
+        <option value="$PROJECT_DIR$/runFileIO.sh" />
+        <option value="$PROJECT_DIR$/FileIO/StudentIO.java" />
+        <option value="$PROJECT_DIR$/Validator/Validate.java" />
       </list>
     </option>
   </component>
@@ -237,9 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,8 +149,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TutoringPlacementApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TutoringPlacementApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -594,7 +501,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454293913368</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Run script runs local solver for testing.">
+      <created>1454381332338</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1454381332338</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -610,7 +523,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1982036" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -622,6 +534,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -667,7 +580,8 @@
     <MESSAGE value="Added run scripts for solver" />
     <MESSAGE value="Cleaned up unncessary files. Now overwrites student file by default." />
     <MESSAGE value="Handles added UNH-ID field and new Google CSV format with added quotations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Handles added UNH-ID field and new Google CSV format with added quotations." />
+    <MESSAGE value="Run script runs local solver for testing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Run script runs local solver for testing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -687,13 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runFileIO.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -711,24 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Files/classFile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12223516">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/SanityChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -785,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,10 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.017462166">
           <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#834#835#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665">
           <caret line="26" column="28" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.027777778">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="22" column="7" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,15 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23809524">
           <caret line="15" column="53" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/StudentIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34391534">
-          <caret line="70" column="102" selection-start-line="70" selection-start-column="102" selection-end-line="70" selection-end-column="102" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3968254">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44973546">
           <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.64021164">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -932,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -940,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5978837">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -948,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,15 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="175" column="11" selection-start-line="175" selection-start-column="11" selection-end-line="175" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Files/solution">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="510" column="0" selection-start-line="510" selection-start-column="0" selection-end-line="510" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,15 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="496" column="4" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Files/solution1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="91" column="4" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,19 +844,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Files/OrgoChemPLTLGroupSign-upSpring2016.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6666667">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Validator/SolutionFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4181#4182#0" expanded="false" />
+            <element signature="e#4216#4217#0" expanded="false" />
+            <element signature="e#4736#4737#0" expanded="false" />
+            <element signature="e#4766#4767#0" expanded="false" />
+            <element signature="e#4811#4812#0" expanded="false" />
+            <element signature="e#4853#4854#0" expanded="false" />
+            <element signature="e#4888#4889#0" expanded="false" />
+            <element signature="e#4920#4921#0" expanded="false" />
+            <element signature="e#4957#4958#0" expanded="false" />
+            <element signature="e#4991#4992#0" expanded="false" />
+            <element signature="e#5030#5031#0" expanded="false" />
+            <element signature="e#5069#5070#0" expanded="false" />
+            <element signature="e#5117#5118#0" expanded="false" />
+            <element signature="e#5148#5149#0" expanded="false" />
+            <element signature="e#5221#5222#0" expanded="false" />
+            <element signature="e#5250#5251#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5767196">
           <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,22 +881,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84656084">
           <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Validator/Validate.java">
+    <entry file="file://$PROJECT_DIR$/Demo/run.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="162" column="39" selection-start-line="162" selection-start-column="39" selection-end-line="162" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runSolver.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1064,10 +908,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/run.sh">
+    <entry file="file://$PROJECT_DIR$/Files/solution">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5026455">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="510" column="0" selection-start-line="510" selection-start-column="0" selection-end-line="510" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/OrgoChemPLTLGroupSign-upSpring2016.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.592592">
+          <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIO/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runFileIO.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIO/SanityChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIO/StudentIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#14736#14737#0" expanded="true" />
+            <element signature="e#14771#14772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Validator/Validate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="181" column="52" selection-start-line="181" selection-start-column="52" selection-end-line="181" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/solution1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27939466">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runSolver.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13969733">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
