@@ -6,15 +6,20 @@ input=$2
 output=$3
 timeout=$4
 
-if [ "$alg" == "Local" ]
-then
-    cd ../sLocal-Search-master/
-    node slocalsearch.js $timeout "$output" "regular" < "$input"
+
+    touch ../Files/temp
+    chmod +x ../Files/temp
+
+   # cd ../Solver/
+   # printf "tree search\n"
+   # ./run.sh $timeout $input > ../Files/temp
+
+    printf "local search\n"
+    #cat $input ../Files/temp | node ../sLocal-Search-master/slocalsearch.js $timeout $output "improve"
+
+    node ../sLocal-Search-master/slocalsearch.js $timeout $output "regular" < $input
+
+
     cd ../Validator
-    ./run.sh $alg $input $output
-else
-    cd ../Solver/
-    ./run.sh $timeout $input > $output
-    cd ../Validator
-    ./run.sh $alg $input $output
-fi
+    ./run.sh $input $output
+
