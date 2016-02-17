@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-file=$1
-runTime=$2
-./runFileIO.sh $file
+runTime=$1
+./runFileIO.sh
 ./runSolver.sh $runTime

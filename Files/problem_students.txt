@@ -1,56 +1,4 @@
-Alex Dorr(abd1) (abd1@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: Possible
-
-Danielle Grover (dag12) (dag12@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: PREFERRED
-
-Erik Blecharczyk(ewb2000) (ewb2000@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: Impossible
-
-Alex Tongs(aet2003) (aet2003@wildcats.unh.edu):
-Warning: No possible times selected
-Comments: Impossible
-
-Miranda Rubin(Mar2017) (mar2027@wildcats.unh.edu):
-Warning: No possible times selected
-Comments: Impossible
-
-Caroline Stenbeck(cgs2000) (cgs2000@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: Impossible
-
-Shannon Murphy(smy325) (smy325@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: Impossible
-
-Courtney  McLoud(cay257) (cay257@wildcats.unh.edu):
-Warning: No possible times selected
-Comments: Impossible
-
-Elise Malouf(evm11) (evm11@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: Possible
-
-Sebastian Mandino(sm2022) (sm2022@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: Impossible
-
-Juanfeng Sun(js24) (js24@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: Impossible
-
-Joseph Menafra(jat336) (jat336@wildcats.unh.edu):
-Warning: No possible times selected
-Comments: Impossible
-
-Kira Kenny(kmk2009) (kmk2008@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: Possible
-
-Arianna Gough(ag2010) (ag2010@wildcats.unh.edu):
+Mitchell Friend(mkl62) (mkl62@wildcats.unh.edu):
 Warning: No preferred times were selected
 Comments: Impossible
 
@@ -58,11 +6,19 @@ Ami  Humphrey (alm634) (alm634@wildcats.unh.edu):
 Warning: No possible times selected
 Comments: Impossible
 
-Liam Higgins(ldh2002) (ldh2002@wildcats.unh.edu):
+Miranda Rubin(Mar2017) (mar2027@wildcats.unh.edu):
 Warning: No possible times selected
 Comments: Impossible
 
-Jeffrey King(jaa396) (jaa396@wildcats.unh.edu):
+Juanfeng Sun(js24) (js24@wildcats.unh.edu):
+Warning: No preferred times were selected
+Comments: Impossible
+
+Shannon Murphy(smy325) (smy325@wildcats.unh.edu):
+Warning: No preferred times were selected
+Comments: Impossible
+
+Meghan Abrahamson(mku56) (mku56@wildcats.unh.edu):
 Warning: No possible times selected
 Comments: Impossible
 
@@ -70,47 +26,31 @@ Samantha Blanchard(smb2018) (smb2018@wildcats.unh.edu):
 Warning: No possible times selected
 Comments: PREFERRED
 
-Meghan Abrahamson(mku56) (mku56@wildcats.unh.edu):
-Warning: No possible times selected
-Comments: Impossible
-
-Dagny Garcia-Brown(dgb2002) (dgb2002@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: Impossible
-
-Zachary Scibetta(zjs2001) (Zjs2001@wildcats.unh.edu):
-Warning: No possible times selected
-Comments: PREFERRED
-
 Margaret McManus(mem2016) (mem2016@wildcats.unh.edu):
 Warning: No preferred times were selected
 Comments: Impossible
 
-Ryan Lamers(rau92) (rau92@wildcats.unh.edu):
+Amy Boucher(amb2108) (amb2108@wildcats.unh.edu):
 Warning: No possible times selected
+Comments: Impossible
+
+rachel kirshkaln(rmm63) (rmm63@wildcats.unh.edu):
+Warning: No possible times selected
+Comments: Impossible
+
+Elise Malouf(evm11) (evm11@wildcats.unh.edu):
+Warning: No preferred times were selected
+Comments: Possible
+
+Dagny Garcia-Brown(dgb2002) (dgb2002@wildcats.unh.edu):
+Warning: No preferred times were selected
 Comments: Impossible
 
 Sagun Satyal(ss2034) (ss2034@wildcats.unh.edu):
 Warning: No possible times selected
 Comments: Impossible
 
-Katherine Loiselle(kal2012) (kal2012@wildcats.unh.edu):
-Warning: No possible times selected
-Comments: Impossible
-
-Mitchell Friend(mkl62) (mkl62@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: Impossible
-
 Nolan King(npm27) (npm27@wildcats.unh.edu):
-Warning: No possible times selected
-Comments: Impossible
-
-Sofia Diaco(smz258) (smz258@wildcats.unh.edu):
-Warning: No preferred times were selected
-Comments: Possible
-
-Amy Boucher(amb2108) (amb2108@wildcats.unh.edu):
 Warning: No possible times selected
 Comments: Impossible
 
@@ -118,11 +58,63 @@ Abby Jenson(Aj2007) (aj2007@wildcats.unh.edu):
 Warning: No preferred times were selected
 Comments: Impossible
 
-rachel kirshkaln(rmm63) (rmm63@wildcats.unh.edu):
+Jeffrey King(jaa396) (jaa396@wildcats.unh.edu):
 Warning: No possible times selected
 Comments: Impossible
 
-Alexander Rioux(ajz239) (ajz230@wildcats.unh.edu):
+Danielle Grover (dag12) (dag12@wildcats.unh.edu):
+Warning: No preferred times were selected
+Comments: PREFERRED
+
+Joseph Menafra(jat336) (jat336@wildcats.unh.edu):
+Warning: No possible times selected
+Comments: Impossible
+
+Sebastian Mandino(sm2022) (sm2022@wildcats.unh.edu):
+Warning: No preferred times were selected
+Comments: Impossible
+
+Sofia Diaco(smz258) (smz258@wildcats.unh.edu):
+Warning: No preferred times were selected
+Comments: Possible
+
+Arianna Gough(ag2010) (ag2010@wildcats.unh.edu):
+Warning: No preferred times were selected
+Comments: Impossible
+
+Ryan Lamers(rau92) (rau92@wildcats.unh.edu):
+Warning: No possible times selected
+Comments: Impossible
+
+Alex Dorr(abd1) (abd1@wildcats.unh.edu):
+Warning: No preferred times were selected
+Comments: Possible
+
+Liam Higgins(ldh2002) (ldh2002@wildcats.unh.edu):
+Warning: No possible times selected
+Comments: Impossible
+
+Caroline Stenbeck(cgs2000) (cgs2000@wildcats.unh.edu):
+Warning: No preferred times were selected
+Comments: Impossible
+
+Alex Tongs(aet2003) (aet2003@wildcats.unh.edu):
+Warning: No possible times selected
+Comments: Impossible
+
+Courtney  McLoud(cay257) (cay257@wildcats.unh.edu):
+Warning: No possible times selected
+Comments: Impossible
+
+Erik Blecharczyk(ewb2000) (ewb2000@wildcats.unh.edu):
+Warning: No preferred times were selected
+Comments: Impossible
+
+Meho Kamaric(mk8) (mk8@wildcats.unh.edu):
+Warning: No possible times selected
+Comments: Impossible
+
+Kira Kenny(kmk2009) (kmk2008@wildcats.unh.edu):
 Warning: No preferred times were selected
 Comments: Possible
 
@@ -130,7 +122,15 @@ Rebecca Grenier(rbg2001) (rbg2001@wildcats.unh.edu):
 Warning: No preferred times were selected
 Comments: Possible
 
-Meho Kamaric(mk8) (mk8@wildcats.unh.edu):
+Katherine Loiselle(kal2012) (kal2012@wildcats.unh.edu):
 Warning: No possible times selected
 Comments: Impossible
+
+Zachary Scibetta(zjs2001) (Zjs2001@wildcats.unh.edu):
+Warning: No possible times selected
+Comments: PREFERRED
+
+Alexander Rioux(ajz239) (ajz230@wildcats.unh.edu):
+Warning: No preferred times were selected
+Comments: Possible
 

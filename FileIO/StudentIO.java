@@ -1,4 +1,5 @@
 package FileIO;
+import javax.swing.*;
 import java.io.*;
 import java.util.*;
 import java.util.regex.Matcher;
@@ -19,6 +20,7 @@ public class StudentIO {
     private ArrayList<String> groupTimes;
     private ArrayList<String> professors;
     private Hashtable<String,Student> studentNames;
+    private static JFileChooser chooser;
 
     //+++++++++++++++++++++++++ Constructors ++++++++++++++++++++++++++
     public StudentIO(String[] fileNames){
@@ -106,6 +108,8 @@ public class StudentIO {
     private Student parseGoogleLine( String line ){
 
         line = line.replaceAll("\"", "");
+
+        //System.out.println( "line: " + line );
         String[] fields = line.split(",");
         String firstName = fields[1];
         String lastName = fields[2] + "(" + fields[3] + ")";
@@ -376,7 +380,6 @@ public class StudentIO {
             }
             fileWriter.close();
             System.out.println("Class Template written to ./Files/" + classFile.getName() );
-            System.out.println("Don't forget to fill in necessary information!");
         } catch( IOException e ){
             System.err.println( "IO Exception when making class template: " + e.getMessage() );
         }
@@ -391,8 +394,43 @@ public class StudentIO {
             System.out.println( file.getName() + " couldn't be deleted");
     }
 
+
+    //---------------------- String getFileName() ---------------------------------
+    /**
+     * Use a JFileChooser dialog to get a valid file name from a user.
+     *   Will not return the name unless the file exists.
+     * Returns null if no valid file selected.
+     */
+    public static String getFileName()
+    {
+        String fileName = null;
+
+        if ( chooser == null )
+        {
+            chooser = new JFileChooser();
+            chooser.setCurrentDirectory( new File( "~" ) );
+        }
+
+
+        int returnVal = chooser.showOpenDialog( null );
+        while ( fileName == null && returnVal != JFileChooser.CANCEL_OPTION )
+        {
+            if ( returnVal == JFileChooser.APPROVE_OPTION )
+            {
+                File f = chooser.getSelectedFile();
+                if ( f.isFile() )
+                    fileName = f.getPath();
+                else
+                    returnVal = chooser.showOpenDialog( null );
+            }
+        }
+        return fileName;
+    }
+
     //===============================main=================================
     public static void main( String[] args ){
-        new StudentIO(args);
+        String fileName = getFileName();
+        String[] arg = {fileName};
+        new StudentIO(arg);
     }
 }
