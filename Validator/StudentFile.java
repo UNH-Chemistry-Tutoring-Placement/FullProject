@@ -108,8 +108,9 @@ public class StudentFile {
                         }
                         break;
                 }
+                lineScanner.close();
             }
-
+            studentScanner.close();
         } catch (FileNotFoundException e ){
             System.err.println( "File " + file.getName() + " not found.");
         }

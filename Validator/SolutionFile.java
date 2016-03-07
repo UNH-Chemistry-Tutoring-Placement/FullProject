@@ -26,12 +26,14 @@ public class SolutionFile {
     private HashMap<String,String> studentTimes;
     private HashMap<Pair<String,String>, ArrayList<String>> groups;
     private ArrayList<String> students;
+    private ArrayList<Pair<String, String>> times;
     private int solutionCost;
 
     public SolutionFile( File solutionFile ){
         studentTimes = new HashMap<>();
         students = new ArrayList<>();
         groups = new HashMap<>();
+        times = new ArrayList<>();
         parseAll( solutionFile );
     }
 
@@ -68,7 +70,9 @@ public class SolutionFile {
                         solutionCost = Integer.parseInt(lineScanner.next().trim());
                         break;
                 }
+                lineScanner.close();
             }
+            solutionScanner.close();
         }catch( FileNotFoundException e){
             System.err.println( "File " + file.getName() + " not found." );
         }
@@ -84,6 +88,7 @@ public class SolutionFile {
 
             if( !groups.containsKey(taEmailPair) ){
                 groups.put( taEmailPair, new ArrayList<>());
+                times.add(taEmailPair);
             }
             groups.get( taEmailPair ).add(studentName);
             studentTimes.put(studentName, studentPlacement);
@@ -164,6 +169,8 @@ public class SolutionFile {
     public HashMap<Pair<String,String>, ArrayList<String>> getGroups(){
         return groups;
     }
+
+    public ArrayList<Pair<String, String>> getTimes() { return times; }
 
     public static void main( String[] args ){
         SolutionFile file = new SolutionFile( new File( args[0]) );

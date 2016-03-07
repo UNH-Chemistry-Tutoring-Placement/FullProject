@@ -1,0 +1,2053 @@
+Objective Function Format: 3
+Description: Init. Does not take impossible choice penalty or balance terms
+min group size: 5
+max group size: 9
+below min penalty: 100
+above max penalty: 100
+possible choice penalty: 1
+diff professor penalty: 10
+gender solo penalty: 2
+# Auto generated template 
+Class Info Format: 2
+Description: (add description here)
+Number of professors: 1
+Name: Glen Miller
+Number of groups: 18
+Name: 
+Email: 
+Time: Monday 12:40 PM - 2 PM
+Name: 
+Email: 
+Time: Monday 1:10 PM - 2:30 PM
+Name: 
+Email: 
+Time: Monday  2:10 - 3:30 PM
+Name: 
+Email: 
+Time: Monday 2:10 PM - 3:30 PM
+Name: 
+Email: 
+Time: Monday 3:10 PM - 4:30 PM
+Name: 
+Email: 
+Time: Tuesday 11:10 AM - 12:30 PM
+Name: 
+Email: 
+Time: Tuesday 12:40 PM - 2:00 PM
+Name: 
+Email: 
+Time: Tuesday 12:40 PM - 2:00 PM
+Name: 
+Email: 
+Time: Tuesday 1:40 PM - 3:00 PM
+Name: 
+Email: 
+Time: Tuesday 2:10 PM - 3:30 PM
+Name: 
+Email: 
+Time: Tuesday 3:40 PM - 5:00 PM
+Name: 
+Email: 
+Time: Wednesday 12:10 PM - 1:30 PM
+Name: 
+Email: 
+Time: Wednesday 1:10 PM - 2:30 PM
+Name: 
+Email: 
+Time: Wednesday 3:10 PM - 4:30 PM
+Name: 
+Email: 
+Time: Thursday 9:40 AM - 11:00 AM
+Name: 
+Email: 
+Time: Thursday 11:40 AM - 1:00 PM
+Name: 
+Email: 
+Time: Thursday 12:40 PM - 2:00 PM
+Name: 
+Email: 
+Time: Thursday 1:10 PM - 2:30 PM
+Student Info Format: 3
+Description: A bunch of students
+Number of students: 168
+Name: cedric  masengere(cam14)
+Email: cam14@wildcats.unh.edu 
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 3
+Monday 1:10 PM - 2:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: William Welch (wjw2001)
+Email: wjw2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 6
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 3
+Tuesday 1:40 PM - 3:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Alex Dorr(abd1)
+Email: abd1@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 0
+Number of possible times: 9
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Nicholas Ritzo(njr2003)
+Email: njr2003@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Number of possible times: 1
+Tuesday 3:40 PM - 5:00 PM
+Name: Daniel Courter(djc2007)
+Email: djc2007@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Monday 12:40 PM - 2 PM
+Number of possible times: 6
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Stephanie Copeland(sjc2003)
+Email: sjc2003@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Number of possible times: 5
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Name: Juanfeng Sun(js24)
+Email: js24@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 0
+Number of possible times: 3
+Monday 3:10 PM - 4:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Altai Perry(ajp1023)
+Email: ajp1023@wildcats.unh.edu
+Professor: Glen Miller
+Year: 1
+Sex: Male
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 4
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Lizzie Gill(ery56)
+Email: ery56@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 2
+Tuesday 3:40 PM - 5:00 PM
+Wednesday 12:10 PM - 1:30 PM
+Number of possible times: 1
+Thursday 9:40 AM - 11:00 AM
+Name: Lauren Tessier(Lmr232)
+Email: lmr232@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Number of possible times: 3
+Tuesday 3:40 PM - 5:00 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Stephen Spiro(scw54)
+Email: scw54@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 5
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 3:40 PM - 5:00 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 2
+Monday 12:40 PM - 2 PM
+Tuesday 11:10 AM - 12:30 PM
+Name: Danielle McGinty(djm2004)
+Email: djm2004@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 6
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Kyle McLain(kam2035)
+Email: kam2035@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 2
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 3
+Monday 3:10 PM - 4:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Meghan Abrahamson(mku56)
+Email: mku56@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Female
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 0
+Name: Ryan Lamers(rau92)
+Email: rau92@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 2
+Monday 12:40 PM - 2 PM
+Thursday 9:40 AM - 11:00 AM
+Number of possible times: 0
+Name: Elise McDonough(emm2007)
+Email: emm2007@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 3
+Wednesday 12:10 PM - 1:30 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 2
+Monday 12:40 PM - 2 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Joseph Menafra(jat336)
+Email: jat336@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 0
+Name: Danielle Grover (dag12)
+Email: dag12@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 0
+Number of possible times: 1
+Thursday 1:10 PM - 2:30 PM
+Name: Mitchell Friend(mkl62)
+Email: mkl62@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 0
+Number of possible times: 3
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Wednesday 12:10 PM - 1:30 PM
+Name: Hailey Boulia(heb2002)
+Email: heb2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Name: Mandy Thompson(amt2009)
+Email: amt2009@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 5
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Christian Giotas(cae272)
+Email: cae272@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 2
+Monday 12:40 PM - 2 PM
+Monday 3:10 PM - 4:30 PM
+Name: Breanna Leddy(bjl2004)
+Email: bjl2004@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 4
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Number of possible times: 5
+Monday 3:10 PM - 4:30 PM
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Caroline Beaudette(cmb2024)
+Email: cmb2024@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 2
+Monday 3:10 PM - 4:30 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Jessica Childs(jwc2004)
+Email: jwc2004@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Monday  2:10 - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 2
+Monday 2:10 PM - 3:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Elizabeth Walmsley(egw2002)
+Email: egw2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 3
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 3
+Tuesday 11:10 AM - 12:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 12:40 PM - 2:00 PM
+Name: John Grinde(jbk52)
+Email: jbk52@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Monday 12:40 PM - 2 PM
+Number of possible times: 1
+Thursday 9:40 AM - 11:00 AM
+Name: Savanna Wilson(shw2002)
+Email: shw2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Thursday 11:40 AM - 1:00 PM
+Number of possible times: 1
+Monday 12:40 PM - 2 PM
+Name: Daniel  Hertia (drh2000)
+Email: drh2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 4
+Monday 12:40 PM - 2 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Wednesday 12:10 PM - 1:30 PM
+Name: Madeline Frattaroli(mai297)
+Email: mai297@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Tuesday 2:10 PM - 3:30 PM
+Number of possible times: 5
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 3:40 PM - 5:00 PM
+Wednesday 12:10 PM - 1:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Cassidy Richard(clr2004)
+Email: clr2004@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Number of possible times: 3
+Monday 3:10 PM - 4:30 PM
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Name: Andrew Morin(apm2006)
+Email: apm2006@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Monday 2:10 PM - 3:30 PM
+Number of possible times: 3
+Monday  2:10 - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Jon Neilio(jmh333)
+Email: jmh333@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 4
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 2
+Monday 3:10 PM - 4:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Marjorie  Steiner(mgo56)
+Email: mgo56@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 3
+Tuesday 11:10 AM - 12:30 PM
+Thursday 9:40 AM - 11:00 AM
+Thursday 11:40 AM - 1:00 PM
+Number of possible times: 7
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Alec Maddaus(agm11)
+Email: agm11@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Tuesday 3:40 PM - 5:00 PM
+Number of possible times: 1
+Tuesday 2:10 PM - 3:30 PM
+Name: Chloe  Schmir (crs2002)
+Email: crs2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Number of possible times: 1
+Monday 3:10 PM - 4:30 PM
+Name: Zack Lee(ZTL1)
+Email: ZTL1@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Number of possible times: 4
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Meho Kamaric(mk8)
+Email: mk8@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 0
+Name: Margaret McManus(mem2016)
+Email: mem2016@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 0
+Number of possible times: 4
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 3:40 PM - 5:00 PM
+Thursday 9:40 AM - 11:00 AM
+Thursday 12:40 PM - 2:00 PM
+Name: Kira Kenny(kmk2009)
+Email: kmk2008@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 0
+Number of possible times: 5
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Yusuf Ebrahim(ye2000)
+Email: ye2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 2
+Tuesday 1:40 PM - 3:00 PM
+Wednesday 12:10 PM - 1:30 PM
+Number of possible times: 4
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Name: Zachary Scibetta(zjs2001)
+Email: Zjs2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 0
+Name: Kirby Toussaint(khu27)
+Email: khu27@wildcat.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 4
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 1
+Thursday 1:10 PM - 2:30 PM
+Name: Shane St. Onge(sds6)
+Email: sds6@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Thursday 11:40 AM - 1:00 PM
+Number of possible times: 2
+Wednesday 1:10 PM - 2:30 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Narrissa  Hilbert(nrh2000)
+Email: nrh2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Monday 2:10 PM - 3:30 PM
+Thursday 11:40 AM - 1:00 PM
+Number of possible times: 2
+Tuesday 3:40 PM - 5:00 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Elise Malouf(evm11)
+Email: evm11@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Prefer Not to Answer
+Number of good times: 0
+Number of possible times: 12
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Meghan Connelly(mmc2012)
+Email: mmc2012@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Monday 12:40 PM - 2 PM
+Number of possible times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Name: Nicole  DiMasso(nmd2001)
+Email: nmd2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 3
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 4
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 3:40 PM - 5:00 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Tracy Yeung(Ty2001)
+Email: Ty2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 4
+Monday 1:10 PM - 2:30 PM
+Monday 3:10 PM - 4:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Thursday 9:40 AM - 11:00 AM
+Number of possible times: 3
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Christina DiMeo(cmd2012)
+Email: cmd2012@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 3
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Number of possible times: 1
+Monday 3:10 PM - 4:30 PM
+Name: nileesa Gautam(ng2010)
+Email: ng2010@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Number of possible times: 3
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday 3:10 PM - 4:30 PM
+Name: Aislinn Collins(akq58)
+Email: akq58@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 2
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Name: Daniel  Deschenes (dps36)
+Email: dps36@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 2
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Number of possible times: 1
+Thursday 1:10 PM - 2:30 PM
+Name: Mariella Waddington(mew2002)
+Email: mew2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 5
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Wednesday 1:10 PM - 2:30 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Ashley Gagnon(amg2004)
+Email: amg2004@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Monday 12:40 PM - 2 PM
+Number of possible times: 4
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Name: Samantha Agyeman(sna2001)
+Email: sna2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 4
+Tuesday 11:10 AM - 12:30 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Amber Rose(ar2011)
+Email: ar2011@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Tuesday 11:10 AM - 12:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 3
+Wednesday 3:10 PM - 4:30 PM
+Thursday 9:40 AM - 11:00 AM
+Thursday 11:40 AM - 1:00 PM
+Name: Sydney Blanchard(stb2005)
+Email: stb2005@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 2
+Monday 12:40 PM - 2 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Haley Osgood(hlo2001)
+Email: hlo2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 1
+Thursday 1:10 PM - 2:30 PM
+Name: Darrell Orozco(dko1)
+Email: dko1@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 2
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 4
+Monday 3:10 PM - 4:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Wednesday 12:10 PM - 1:30 PM
+Name: Sophie Bonstrom(slb2002)
+Email: slb2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Tuesday 2:10 PM - 3:30 PM
+Number of possible times: 3
+Monday 3:10 PM - 4:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Carly Bass(cbb2000)
+Email: cbb2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Tuesday 11:10 AM - 12:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 5
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Ashleen Joseph(asj2001)
+Email: asj2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 4
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Megan Douglas(mmd2006)
+Email: mmd2006@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 3
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 2
+Monday 1:10 PM - 2:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Katherine Hyson(kah2010)
+Email: kah2010@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Number of possible times: 1
+Tuesday 12:40 PM - 2:00 PM
+Name: Delaney Mavor(dm2024)
+Email: dm2024@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 4
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 9:40 AM - 11:00 AM
+Thursday 11:40 AM - 1:00 PM
+Number of possible times: 4
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Thursday 12:40 PM - 2:00 PM
+Name: David Ross(dmo236)
+Email: dmo236@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Male
+Number of good times: 2
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 9
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Thursday 9:40 AM - 11:00 AM
+Name: Bria Frehner(bkz42)
+Email: bkz42@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 2
+Wednesday 12:10 PM - 1:30 PM
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 2
+Wednesday 1:10 PM - 2:30 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Nicole Curcio(Nc2007)
+Email: nc2007@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Monday  2:10 - 3:30 PM
+Number of possible times: 6
+Monday 1:10 PM - 2:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Samantha Blanchard(smb2018)
+Email: smb2018@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Tuesday 1:40 PM - 3:00 PM
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 0
+Name: Kaitlyn  Rumford(Kar2001)
+Email: kar2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 1
+Wednesday 12:10 PM - 1:30 PM
+Name: Kaelina Lombardo(kdl2003)
+Email: kdl2003@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 2
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Name: Erik Blecharczyk(ewb2000)
+Email: ewb2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 0
+Number of possible times: 8
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Morgan Marston(mlm2009)
+Email: mlm2009@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 1
+Tuesday 11:10 AM - 12:30 PM
+Name: Paul Pirundini(pap2001)
+Email: pap2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Tuesday 2:10 PM - 3:30 PM
+Number of possible times: 5
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Sara White(scw2004)
+Email: scw2004@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Monday 3:10 PM - 4:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Name: Tess Bergeron(tlz43)
+Email: tlz43@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Female
+Number of good times: 2
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Number of possible times: 3
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Name: Alexander Rioux(ajz239)
+Email: ajz230@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 0
+Number of possible times: 4
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Ashley  Lechlider(amb382)
+Email: amb382@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 5
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Wednesday 12:10 PM - 1:30 PM
+Number of possible times: 2
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Name: Amy Boucher(amb2108)
+Email: amb2108@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Tuesday 3:40 PM - 5:00 PM
+Number of possible times: 0
+Name: Catherine Choquette(crq65)
+Email: crq65@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Female
+Number of good times: 2
+Monday 3:10 PM - 4:30 PM
+Tuesday 2:10 PM - 3:30 PM
+Number of possible times: 11
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Leif Burgess(Lev86)
+Email: lev86@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Thursday 9:40 AM - 11:00 AM
+Number of possible times: 4
+Tuesday 11:10 AM - 12:30 PM
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Nicole LaMalva(nl1003)
+Email: nl1003@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 4
+Monday 1:10 PM - 2:30 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 6
+Monday 12:40 PM - 2 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Name: Marissa Bates(mab2013)
+Email: mab2013@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Monday 2:10 PM - 3:30 PM
+Number of possible times: 1
+Thursday 12:40 PM - 2:00 PM
+Name: Emma Gallagher(eag2003)
+Email: eag2003@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 10
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Kelsey Bourne(kwn33)
+Email: kwn33@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 7
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Wednesday 12:10 PM - 1:30 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Alex Tongs(aet2003)
+Email: aet2003@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 0
+Name: Rachel Tuniewicz(rjt2000)
+Email: rjt2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 3
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Name: morgan languirand(mel2022)
+Email: mel2022@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Tuesday 2:10 PM - 3:30 PM
+Number of possible times: 4
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Thursday 9:40 AM - 11:00 AM
+Name: Arianna Gough(ag2010)
+Email: ag2010@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 0
+Number of possible times: 2
+Monday 12:40 PM - 2 PM
+Tuesday 11:10 AM - 12:30 PM
+Name: Elizabeth Faircloth(ela45)
+Email: ela45@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Wednesday 12:10 PM - 1:30 PM
+Number of possible times: 6
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Wednesday 1:10 PM - 2:30 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Sagun Satyal(ss2034)
+Email: ss2034@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Monday 12:40 PM - 2 PM
+Wednesday 12:10 PM - 1:30 PM
+Number of possible times: 0
+Name: Alexander Redfearn(adz55)
+Email: adz55@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 4
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: rachel kirshkaln(rmm63)
+Email: rmm63@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Female
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 0
+Name: Molly Wallace(mew2001)
+Email: mew2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 5
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Name: Isaac Traynor(ijt2000)
+Email: ijt2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Thursday 9:40 AM - 11:00 AM
+Number of possible times: 1
+Tuesday 3:40 PM - 5:00 PM
+Name: Rachel Moore(rhm2002)
+Email: rhm2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Monday 1:10 PM - 2:30 PM
+Number of possible times: 2
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Name: Curtis Lalonde(cdl1)
+Email: cdl1@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 2
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Number of possible times: 2
+Tuesday 1:40 PM - 3:00 PM
+Wednesday 1:10 PM - 2:30 PM
+Name: Meghan Fortier(mef2006)
+Email: mef2006@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 1
+Tuesday 11:10 AM - 12:30 PM
+Name: Dagny Garcia-Brown(dgb2002)
+Email: dgb2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 0
+Number of possible times: 10
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Tricia LePage (tnl2000)
+Email: tnl2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 4
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 2
+Monday 12:40 PM - 2 PM
+Tuesday 3:40 PM - 5:00 PM
+Name: Kevin Gutierrez(kg6)
+Email: kg6@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 1
+Thursday 12:40 PM - 2:00 PM
+Name: Lindsay March(lbm2001)
+Email: lbm2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Prefer Not to Answer
+Number of good times: 2
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Number of possible times: 1
+Wednesday 3:10 PM - 4:30 PM
+Name: Alison Deyett(aad11)
+Email: aad11@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 3
+Monday 12:40 PM - 2 PM
+Tuesday 3:40 PM - 5:00 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Megan Cooley(mez272)
+Email: mez272@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 6
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Nolan King(npm27)
+Email: npm27@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 0
+Name: Kristen Erickson(Kle2000)
+Email: kle2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Tuesday 2:10 PM - 3:30 PM
+Number of possible times: 1
+Thursday 11:40 AM - 1:00 PM
+Name: Stephanie Whiteneck(Sat224)
+Email: sat224@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Female
+Number of good times: 1
+Monday 12:40 PM - 2 PM
+Number of possible times: 3
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Name: Courtney Kamyk(cmk2001)
+Email: cmk2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 11
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Luke Daly(lrd2001)
+Email: lrd2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 2
+Wednesday 1:10 PM - 2:30 PM
+Thursday 11:40 AM - 1:00 PM
+Number of possible times: 2
+Tuesday 11:10 AM - 12:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Jacqui Nunnelley(Jkn2000)
+Email: jkn2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 1
+Thursday 11:40 AM - 1:00 PM
+Name: Stephanie O'Kresik(sjo2007)
+Email: sjo2007@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 2
+Wednesday 12:10 PM - 1:30 PM
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 3
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Caroline Stenbeck(cgs2000)
+Email: cgs2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 0
+Number of possible times: 6
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday 2:10 PM - 3:30 PM
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Maggie  Schultz(Ms2028)
+Email: ms2028@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 5
+Monday 3:10 PM - 4:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Jamie Cormier(jjc2010)
+Email: jjc2010@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Tuesday 3:40 PM - 5:00 PM
+Number of possible times: 3
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Kirsten Alfonso(kaa2001)
+Email: kaa2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 3
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Anton Quintana(aquintana)
+Email: aquintana@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Male
+Number of good times: 2
+Monday 12:40 PM - 2 PM
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 5
+Monday 1:10 PM - 2:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Givans Moiseau(glu28)
+Email: glu28@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 1
+Tuesday 12:40 PM - 2:00 PM
+Name: Mary Mullins(mjm2006)
+Email: mjm2006@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 5
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 3
+Monday 12:40 PM - 2 PM
+Monday 3:10 PM - 4:30 PM
+Wednesday 12:10 PM - 1:30 PM
+Name: Charlotte  Chico(crc14)
+Email: crc14@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 2
+Wednesday 12:10 PM - 1:30 PM
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 4
+Monday 12:40 PM - 2 PM
+Monday 3:10 PM - 4:30 PM
+Thursday 9:40 AM - 11:00 AM
+Thursday 12:40 PM - 2:00 PM
+Name: Ashleigh Shaver(aes2005)
+Email: aes2005@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Monday 12:40 PM - 2 PM
+Number of possible times: 6
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Name: Marissa Anderson(mjw267)
+Email: mjw267@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 2
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 4
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Hannah Root(hmn49)
+Email: hmn49@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 3
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Thursday 9:40 AM - 11:00 AM
+Number of possible times: 4
+Monday 12:40 PM - 2 PM
+Tuesday 11:10 AM - 12:30 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Sumeet Panesar(sp2020)
+Email: sp2020@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Thursday 9:40 AM - 11:00 AM
+Number of possible times: 4
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Rebecca Grenier(rbg2001)
+Email: rbg2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 0
+Number of possible times: 2
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Celeste Souza(cms2007)
+Email: cms2007@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 3
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Tuesday 1:40 PM - 3:00 PM
+Number of possible times: 2
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Name: Caleb Grot(cjg2006)
+Email: cjg2006@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 7
+Monday 12:40 PM - 2 PM
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Heather Williamson(Hmw2003)
+Email: hmw2003@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 7
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Wednesday 12:10 PM - 1:30 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Ryan  Lacey(rmd72)
+Email: rmd72@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Number of possible times: 8
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Thursday 9:40 AM - 11:00 AM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Liam Higgins(ldh2002)
+Email: ldh2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 0
+Name: Amber Olson(alo2001)
+Email: alo2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 3
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 4
+Tuesday 12:40 PM - 2:00 PM
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Amanda Willis(965588021)
+Email: akd47@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Female
+Number of good times: 3
+Monday 3:10 PM - 4:30 PM
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Number of possible times: 5
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Name: Edward Stenovitch(Ejs10)
+Email: ejs10@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Number of possible times: 3
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Name: Abby Koczera(aex98)
+Email: aex98@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Tuesday 2:10 PM - 3:30 PM
+Number of possible times: 3
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 3:40 PM - 5:00 PM
+Thursday 9:40 AM - 11:00 AM
+Name: Jia Mo(jm21)
+Email: jm21@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 2
+Wednesday 3:10 PM - 4:30 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Jake Donahue(959395899)
+Email: jrd2008@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 2
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Number of possible times: 2
+Tuesday 11:10 AM - 12:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Sebastian Mandino(sm2022)
+Email: sm2022@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 0
+Number of possible times: 1
+Monday 3:10 PM - 4:30 PM
+Name: Sofia Diaco(smz258)
+Email: smz258@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 0
+Number of possible times: 6
+Monday 3:10 PM - 4:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Megan Laforge(mkl2005)
+Email: mkl2005@wilcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Thursday 11:40 AM - 1:00 PM
+Number of possible times: 5
+Monday 3:10 PM - 4:30 PM
+Tuesday 11:10 AM - 12:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Courtney  McLoud(cay257)
+Email: cay257@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 0
+Name: Katherine Loiselle(kal2012)
+Email: kal2012@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 0
+Name: Jennifer Cockshaw(Jlc2016)
+Email: Jlc2016@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 5
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Trevor Harcourt(th2011)
+Email: th2011@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 4
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Kevin Maguire(Kwb8)
+Email: kwb8@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Male
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 1
+Thursday 11:40 AM - 1:00 PM
+Name: Sara Berube(seb2014)
+Email: sberube1996@gmail.com
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 1
+Tuesday 2:10 PM - 3:30 PM
+Name: Abby Jenson(Aj2007)
+Email: aj2007@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 0
+Number of possible times: 10
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 3:40 PM - 5:00 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Name: Hannah Coffin(hrc2000)
+Email: hrc2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 3
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Thursday 9:40 AM - 11:00 AM
+Name: Jeffrey King(jaa396)
+Email: jaa396@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 0
+Name: Margaret Pooler(mkp2001)
+Email: mkp2001@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Number of possible times: 2
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Name: James  Tautkus (jct1012)
+Email: jct1012@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 1
+Monday 12:40 PM - 2 PM
+Number of possible times: 2
+Tuesday 11:10 AM - 12:30 PM
+Thursday 11:40 AM - 1:00 PM
+Name: Shannon Murphy(smy325)
+Email: smy325@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 0
+Number of possible times: 2
+Monday 12:40 PM - 2 PM
+Tuesday 11:10 AM - 12:30 PM
+Name: Brett Mooney(bam2006)
+Email: bam2006@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 2
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 3
+Monday 1:10 PM - 2:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Name: Bailey Basiel(blb2002)
+Email: blb2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 4
+Tuesday 11:10 AM - 12:30 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Serge Boucher(Srb1024)
+Email: srb1024@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Thursday 11:40 AM - 1:00 PM
+Number of possible times: 3
+Monday 12:40 PM - 2 PM
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Name: Alissa Scinto(acs2000)
+Email: acs2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 2
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 3
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Luke Violette(ljv2000)
+Email: ljv2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 1
+Tuesday 2:10 PM - 3:30 PM
+Number of possible times: 4
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Wednesday 1:10 PM - 2:30 PM
+Name: Miranda Rubin(Mar2017)
+Email: mar2027@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 3:10 PM - 4:30 PM
+Number of possible times: 0
+Name: Ami  Humphrey (alm634)
+Email: alm634@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Tuesday 11:10 AM - 12:30 PM
+Number of possible times: 0
+Name: Laurie Borgella(lim4)
+Email: lim4@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Female
+Number of good times: 1
+Monday 3:10 PM - 4:30 PM
+Number of possible times: 2
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Name: Jennifer Turner(jet2004)
+Email: jet2004@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 3
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Number of possible times: 2
+Monday 12:40 PM - 2 PM
+Monday 3:10 PM - 4:30 PM
+Name: Alexander Morrill(Ajt239)
+Email: ajt239@wildcats.unh.edu
+Professor: Glen Miller
+Year: 4
+Sex: Male
+Number of good times: 2
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 12:40 PM - 2:00 PM
+Number of possible times: 4
+Tuesday 1:40 PM - 3:00 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Megan  Savoie(mmq237)
+Email: mmq237@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Female
+Number of good times: 1
+Monday 12:40 PM - 2 PM
+Number of possible times: 4
+Monday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Craig Stone(cas2002)
+Email: cas2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 3
+Monday 12:40 PM - 2 PM
+Wednesday 12:10 PM - 1:30 PM
+Thursday 11:40 AM - 1:00 PM
+Number of possible times: 6
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Miguel  Catala(mlc2015)
+Email: mlc2015@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Male
+Number of good times: 4
+Monday 1:10 PM - 2:30 PM
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Number of possible times: 3
+Monday 12:40 PM - 2 PM
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Name: Mitchell Juneau(mbl294)
+Email: mbl294@wildcats.unh.edu
+Professor: Glen Miller
+Year: 3
+Sex: Male
+Number of good times: 3
+Wednesday 1:10 PM - 2:30 PM
+Thursday 9:40 AM - 11:00 AM
+Thursday 12:40 PM - 2:00 PM
+Number of possible times: 5
+Tuesday 11:10 AM - 12:30 PM
+Wednesday 12:10 PM - 1:30 PM
+Wednesday 3:10 PM - 4:30 PM
+Thursday 11:40 AM - 1:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Amanda LeBel(ail2000)
+Email: ail2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Wednesday 12:10 PM - 1:30 PM
+Number of possible times: 3
+Wednesday 3:10 PM - 4:30 PM
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Lily Josephs(lkj2000)
+Email: lkj2000@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 1
+Thursday 11:40 AM - 1:00 PM
+Number of possible times: 2
+Thursday 12:40 PM - 2:00 PM
+Thursday 1:10 PM - 2:30 PM
+Name: Brittani Goggin(bdg2002)
+Email: bdg2002@wildcats.unh.edu
+Professor: Glen Miller
+Year: 2
+Sex: Female
+Number of good times: 5
+Tuesday 11:10 AM - 12:30 PM
+Tuesday 12:40 PM - 2:00 PM
+Tuesday 1:40 PM - 3:00 PM
+Tuesday 2:10 PM - 3:30 PM
+Tuesday 3:40 PM - 5:00 PM
+Number of possible times: 5
+Monday  2:10 - 3:30 PM
+Monday 2:10 PM - 3:30 PM
+Monday 3:10 PM - 4:30 PM
+Wednesday 1:10 PM - 2:30 PM
+Wednesday 3:10 PM - 4:30 PM

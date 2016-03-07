@@ -90,7 +90,9 @@ public class ObjectiveFile {
                     continue;
                 Scanner lineScanner = new Scanner(nextLine).useDelimiter(":");
                 contents.put(lineScanner.next().trim(),lineScanner.next().trim());
+                lineScanner.close();
             }
+            objScanner.close();
         } catch ( FileNotFoundException e ){
             System.err.println("File " + objectiveFile.getName() + "not found.");
         }
