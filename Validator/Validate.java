@@ -173,18 +173,32 @@ public class Validate {
         HashMap<Pair<String,String>, ArrayList<String>> groups = solutionFile.getGroups();
         Iterator<Pair<String,String>> mapIter = groups.keySet().iterator();
         int count = 0;
+        ArrayList<Pair<String,String>> output = new ArrayList<Pair<String,String>>();
         while( mapIter.hasNext() ){
             Pair<String,String> taEmailTime = mapIter.next();
-            System.out.println( "TA email: " + taEmailTime.getValue() + " | Group Time: " + taEmailTime.getKey());
-            System.out.println("--------------------------------------");
+            String s = "";
+            s += "TA email: " + taEmailTime.getValue() + " | Group Time: " + taEmailTime.getKey() + "\n";
+            //System.out.println( "TA email: " + taEmailTime.getValue() + " | Group Time: " + taEmailTime.getKey());
+            s += "--------------------------------------\n";
+            //System.out.println("--------------------------------------");
             for( String studentEmail: groups.get(taEmailTime) ){
                 count++;
-                System.out.printf( "%-28s %-28s %-28s\n", studentFile.getStudentNameByEmail(studentEmail.toLowerCase().trim()), studentEmail, printPreference(studentFile, studentEmail,taEmailTime.getKey()));
+                s += String.format("%-28s %-28s %-28s\n", studentFile.getStudentNameByEmail(studentEmail.toLowerCase().trim()), studentEmail, printPreference(studentFile, studentEmail,taEmailTime.getKey()));
+                //System.out.printf( "%-28s %-28s %-28s\n", studentFile.getStudentNameByEmail(studentEmail.toLowerCase().trim()), studentEmail, printPreference(studentFile, studentEmail,taEmailTime.getKey()));
                 if( debug )
-                    System.out.println( "Professor: " + studentFile.getStudentProfessor(studentEmail));
+                    s += "Professor: " + studentFile.getStudentProfessor(studentEmail) + "\n";
+                    //System.out.println( "Professor: " + studentFile.getStudentProfessor(studentEmail));
             }
-            System.out.println();
-            System.out.println("count: " + count);
+            //System.out.println();
+            s += "count:" + count + "\n";
+            //System.out.println("count: " + count);
+            output.add(new Pair<String, String>(taEmailTime.getKey(),s));
+        }
+
+        //TODO: rearrange by the Key of the arrayList
+
+        for(int i = 0; i < output.size(); i++) {
+            System.out.println(output.get(i).getValue());
         }
     }
 
