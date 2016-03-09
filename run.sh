@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
-runTime=$1
+if [ $# -eq 1 ] ; then
+    runTime=$1
+else
+    runTime=10
+fi
+
 ./runFileIO.sh
 ./runSolver.sh $runTime
