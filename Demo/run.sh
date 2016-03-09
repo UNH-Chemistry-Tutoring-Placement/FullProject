@@ -17,7 +17,16 @@ timeout=$4
     printf "local search\n"
     #cat $input ../Files/temp | node ../sLocal-Search-master/slocalsearch.js $timeout $output "improve"
 
-    node ../sLocal-Search-master/slocalsearch.js $timeout $output "regular" < $input
+    node ../sLocal-Search-master/slocalsearch.js $timeout $output "regular" < $input &
+
+
+    while [ $timeout -gt 0 ]; do
+       echo -ne "Time remaining: $timeout\033[0K\r"
+       sleep 1
+       : $((timeout--))
+    done
+
+    wait
 
 
     cd ../Validator
