@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="708e1525-b35b-4591-a443-7f78ba42c948" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/temp" afterPath="$PROJECT_DIR$/Files/temp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Validator/Validate.class" afterPath="$PROJECT_DIR$/Validator/Validate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo/run.sh" afterPath="$PROJECT_DIR$/Demo/run.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/classFile" afterPath="$PROJECT_DIR$/Files/classFile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/complete-input" afterPath="$PROJECT_DIR$/Files/complete-input" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/problem_students.txt" afterPath="$PROJECT_DIR$/Files/problem_students.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/solution" afterPath="$PROJECT_DIR$/Files/solution" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/students" afterPath="$PROJECT_DIR$/Files/students" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sLocal-Search-master/node_modules/Swappers/RegularSwap.js" afterPath="$PROJECT_DIR$/sLocal-Search-master/node_modules/Swappers/RegularSwap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sLocal-Search-master/slocalsearch.js" afterPath="$PROJECT_DIR$/sLocal-Search-master/slocalsearch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Validator/Validate.java" afterPath="$PROJECT_DIR$/Validator/Validate.java" />
     </list>
     <ignored path="TutoringPlacementApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,21 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegularSwap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sLocal-Search-master/node_modules/Swappers/RegularSwap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validate.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Validate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Validator/Validate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6746575">
+              <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,21 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/run.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3938356">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slocalsearch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sLocal-Search-master/slocalsearch.js">
+      <file leaf-file-name="SanityChecker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FileIO/SanityChecker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="121" column="22" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -129,17 +106,23 @@
         <option value="$PROJECT_DIR$/Validator/SolutionFile.java" />
         <option value="$PROJECT_DIR$/Validator/StudentFile.java" />
         <option value="$PROJECT_DIR$/FileIO/StudentIO.java" />
-        <option value="$PROJECT_DIR$/Validator/Validate.java" />
         <option value="$PROJECT_DIR$/sLocal-Search-master/slocalsearch.js" />
         <option value="$PROJECT_DIR$/sLocal-Search-master/node_modules/Swappers/RegularSwap.js" />
         <option value="$PROJECT_DIR$/Demo/run.sh" />
+        <option value="$PROJECT_DIR$/Validator/Validate.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
     <option name="y" value="23" />
-    <option name="width" value="1677" />
+    <option name="width" value="1680" />
     <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -167,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -224,61 +208,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sLocal-Search-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sLocal-Search-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sLocal-Search-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Swappers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TutoringPlacementApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TutoringPlacementApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileIO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,7 +243,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,237 +254,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Files" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Files/problem_students.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Validator/ObjectiveFile.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Validator/ObjectiveFile.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Validator/SolutionFile.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Validator/SolutionFile.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Validator/StudentFile.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Validator/StudentFile.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Validator/Validate.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Validator/Validate.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Demo/regular</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Files/temp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scheduling Tool.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/.idea/.name</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/.idea/compiler.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/.idea/copyright/profiles_settings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/.idea/modules.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/.idea/vcs.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/ClassFile.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Demo/make.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Demo/regular</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Demo/run.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Demo/run_tests.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Demo/solver.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/FileIO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/FileIO/SanityChecker.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/FileIO/SeniorProject.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/FileIO/Student.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/FileIO/StudentIO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/FileIO/make.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/FileIO/problem_students.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Files/BMCB-658-PLTLSpring-2016-2.csv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Files/OrgoChemPLTLGroupSign-upSpring2016.csv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Files/classFile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Files/complete-input</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Files/objFile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Files/problem_students.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Files/solution</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Files/students</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Files/temp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Group.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/GroupComparator.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/ILDS.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Lecture.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Objective.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/ObjectiveFile.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Scheduling Tool.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/SolutionFile.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Solver$1$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Solver$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Solver.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Solver/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Solver/badStudents.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Solver/make.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Solver/run.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Student.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/StudentFile.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Time.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/TutoringPlacementApplication.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validate.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/make.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/obj35007298607887591591</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/obj38847303938849958881</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/obj47979449606343187391</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/obj49967984630771776101</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/obj62721480560372935591</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/obj65169285898487414751</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/obj66759841962287678521</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/obj73532199098892725101</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/obj7443795667016299241</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/obj84808236517073762741</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/run.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/sol12430786768775330611</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/sol19350075611637337251</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/sol26524189380558548101</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/sol27870514269667891711</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/sol2958027807650074721</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/sol42039335195405031</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/sol65668826294112650581</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/sol73736391627405138661</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/sol74469173456995278751</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/sol74522821712659166351</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/stud11515187330443925391</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/stud14476500680335963721</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/stud15195742072752811651</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/stud38074563736764004481</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/stud46823633368316344491</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/stud49078023881479399891</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/stud54201878491602134601</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/stud74999577756927661061</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/stud88717445797519204141</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/Validator/stud90520504890657685111</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/make.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/run.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/runFileIO.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/runSolver.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/.idea/.name</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/.idea/modules.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/.idea/sLocal_Search.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/.idea/vcs.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/GraderExposed.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/FileData.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/FileParsers.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/Grade.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/Parser.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/Swappers/AMS.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/Swappers/CoreFunctions.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/Swappers/ExistingSwap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/Swappers/RegularSwap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/Swappers/SWO.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/Tests.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/Yargs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/assignmentList.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/randomAssignment.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/node_modules/test.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Scheduling Tool/sLocal-Search-master/slocalsearch.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -889,11 +601,17 @@
       <option name="project" value="LOCAL" />
       <updated>1455732125303</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed bash run script. Previous commit rolled back countdown changes.">
+      <created>1457482094270</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1457482094270</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1677" height="973" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -902,22 +620,22 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2344983" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23613596" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23571429" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -942,7 +660,8 @@
     <MESSAGE value="Fixed error where student count was off due to that student filling out survey multiple times." />
     <MESSAGE value="working" />
     <MESSAGE value="Added JFIleChooser to open file instead of cmd line" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added JFIleChooser to open file instead of cmd line" />
+    <MESSAGE value="Fixed bash run script. Previous commit rolled back countdown changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bash run script. Previous commit rolled back countdown changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -951,6 +670,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sLocal-Search-master/node_modules/Swappers/RegularSwap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Solver/Group.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1111112">
@@ -1225,13 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/SanityChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0256112">
-          <caret line="121" column="22" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FileIO/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.017462166">
@@ -1246,32 +966,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Validator/SolutionFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Validator/ObjectiveFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Validator/ClassFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sLocal-Search-master/slocalsearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,29 +981,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Validator/Validate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Files/GenChemSpring2016.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1815069">
           <caret line="69" column="299" selection-start-line="69" selection-start-column="299" selection-end-line="69" selection-end-column="299" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/run.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3938356">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sLocal-Search-master/slocalsearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Validator/ObjectiveFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.051369864">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Validator/SolutionFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIO/SanityChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="22" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Validator/Validate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6746575">
+          <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

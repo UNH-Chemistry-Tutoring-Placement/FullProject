@@ -1,5 +1,7 @@
+
 import javafx.util.Pair;
 
+import javax.swing.*;
 import java.io.*;
 import java.nio.Buffer;
 import java.nio.file.Paths;
@@ -204,6 +206,39 @@ public class Validate {
         }
     }
 
+    public void saveToCSV(){
+        JFileChooser saveDialog = new JFileChooser();
+        saveDialog.showSaveDialog(null);
+        File saveFile = saveDialog.getSelectedFile();
+        FileWriter fileWriter;
+        try{
+            fileWriter = new FileWriter(saveFile);
+            HashMap<Pair<String,String>, ArrayList<String> > groups = solutionFile.getGroups();
+            ArrayList<Pair<String,String>> times = solutionFile.getTimes();
+            ArrayList<Pair<String,String>> output = new ArrayList<>();
+
+            for( int i = 0; i < times.size(); i++ ){
+                Pair<String,String> taEmailTime = times.get(i);
+                fileWriter.write(taEmailTime.getKey() + ", ");
+
+                for( String studentEmail : groups.get(taEmailTime) ){
+                    fileWriter.write( studentEmail + ", ");
+                }
+                fileWriter.write('\n');
+
+            }
+            fileWriter.close();
+        } catch (IOException e ){
+            System.err.println("Could not open filewriter for output file.");
+            return;
+        }
+
+
+
+
+    }
+
+
     private String printPreference( StudentFile file, String email, String time ){
         if( file.getPossibleTimes(email).contains(time))
             return "(possible)";
@@ -216,5 +251,7 @@ public class Validate {
     public static void main( String[] args ){
         Validate validate = new Validate();
         validate.printRosters();
+        validate.saveToCSV();
+
     }
 }
