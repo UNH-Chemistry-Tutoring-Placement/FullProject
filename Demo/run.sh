@@ -19,19 +19,19 @@ timeout=$4
 
     #node ../sLocal-Search-master/slocalsearch.js $timeout $output "regular" < $input &
 
-    cd ../LocalSearch
-    java LocalSearch $timeout $output < $input
-    : '
-    while [ $timeout -gt 0 ]; do
-       echo -ne "Time remaining: $timeout\033[0K\r"
-       sleep 1
-       : $((timeout--))
-    done
+    cd ..
+    java LocalSearch.LocalSearch $timeout $output < $input
 
-    wait
+    #while [ $timeout -gt 0 ]; do
+     #  echo -ne "Time remaining: $timeout\033[0K\r"
+      # sleep 1
+       #: $((timeout--))
+    #done
 
+    #wait
+    printf "done\n"
 
-    cd ../Validator
+    cd ./Validator
     ./run.sh $input $output
-    '
+
 

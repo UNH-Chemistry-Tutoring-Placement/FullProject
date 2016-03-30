@@ -6,4 +6,4 @@ chmod +x ./Files/solution
 cat ./Files/objFile ./Files/classFile ./Files/students > ./Files/complete-input
 cd Demo
 printf "solving $runTime for seconds\n"
-./run.sh "Local" ../Files/complete-input ../Files/solution $runTime
+./run.sh "Local" ./Files/complete-input ./Files/solution $runTime

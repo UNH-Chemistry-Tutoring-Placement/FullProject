@@ -3,5 +3,5 @@ string="ILDS"
 
 input=$1
 output=$2
-
-cat ../Files/$input ../Files/$output | java Validate
+cd ..
+cat $input $output | java Validator.Validate

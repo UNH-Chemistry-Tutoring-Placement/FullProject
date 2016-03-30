@@ -1,3 +1,4 @@
+package Solver;
 /**
  * Objective- A class holding information related to the objective function
  * @author Stephen Chambers

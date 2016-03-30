@@ -52,7 +52,7 @@ public class FileData {
         return data;
     }
 
-    public void out(int grade, HashMap<String, ArrayList<String>> times, File output) {
+    public void out(int grade, HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> times, File output) {
 
         String out = "";
 
@@ -62,12 +62,12 @@ public class FileData {
         out += "Student Info: STUFF\n";
         out += "Number of students: " + data.studentData.numStudents + "\n";
 
-        for (String time : times.keySet()){
+        for (FileParsers.Group time : times.keySet()){
             for (int i = 0; i < times.get(time).size(); i++){
-                String studentEmail = times.get(time).get(i);
-                out += data.studentData.students.get(studentEmail).email + "\n";
-                out += time.replace(",","") + "\n";
-                out += data.classData.groups.get(time).email + "\n";
+                String studentEmail = times.get(time).get(i).email;
+                out += studentEmail + "\n";
+                out += time.time.replace(",","") + "\n";
+                out += time.email + "\n";
             }
         }
         out += "Solution cost: " + grade;

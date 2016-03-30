@@ -1,3 +1,4 @@
+package Solver;
 /**
  * Lecture- Doesn't really do anything right now, but a 
  * representation will be important in further objective functions

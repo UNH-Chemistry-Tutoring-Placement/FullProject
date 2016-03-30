@@ -1,4 +1,4 @@
-
+package Solver;
 /**
  * Group- This class represents a study group.
  * @author Stephen Chambers

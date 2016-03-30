@@ -1,4 +1,4 @@
-import FileIO.Student;
+package Solver;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

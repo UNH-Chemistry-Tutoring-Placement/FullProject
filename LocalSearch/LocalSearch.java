@@ -1,5 +1,7 @@
 package LocalSearch;
 
+import java.io.File;
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class LocalSearch {
@@ -10,11 +12,11 @@ public class LocalSearch {
     public LocalSearch( int timeToRun, String outFileName ){
 
         fileData = new FileData();
-        secondsToRun = timeToRun;
+        secondsToRun = timeToRun * 1000;
         fileData.load();
         regularSwap();
 
-        //fileData.out(grade, assignments, args[1]);
+        fileData.out(finalGrade, bestSolution, new File(outFileName));
     }
 
     private void regularSwap(){
@@ -24,6 +26,7 @@ public class LocalSearch {
         long timeStart = new Date().getTime();
 
         while( new Date().getTime() - timeStart < secondsToRun ){
+            System.out.println( "Running: " + (new Date().getTime() - timeStart) );
             HashMap<FileParsers.Group, ArrayList<FileParsers.Student>>   curAssignment = randomAssignment();
 
             HashMap<FileParsers.Group, ArrayList<FileParsers.Student>>  result = swap(curAssignment);
@@ -34,6 +37,7 @@ public class LocalSearch {
                 finalGrade = grade;
             }
         }
+        System.out.println("finished");
     }
 
     public int getGrade(){
@@ -48,14 +52,14 @@ public class LocalSearch {
 
         HashMap<FileParsers.Group, ArrayList<FileParsers.Student>>  assignment = new HashMap<>();
         ArrayList<FileParsers.Group> times = new ArrayList<>();
-        Iterator<ArrayList<FileParsers.Group>> groupIter = fileData.get().classData.groups.values().iterator();
+        Iterator<FileParsers.Group> groupIter = fileData.get().classData.groups.values().iterator();
 
         while( groupIter.hasNext() ){
-            ArrayList<FileParsers.Group> groups= groupIter.next();
-            for(FileParsers.Group group : groups) {
-                times.add(group);
-                assignment.put(group, new ArrayList<>());
-            }
+            FileParsers.Group group = groupIter.next();
+
+            times.add(group);
+            assignment.put(group, new ArrayList<>());
+
         }
 
 
@@ -70,6 +74,8 @@ public class LocalSearch {
                     acutalPossibleTimes.add(s);
             }
 
+            //System.out.println("Actualpossibles: " + acutalPossibleTimes );
+
             if( acutalPossibleTimes.size() == 0 ){
                 ArrayList<String> goodTimes = stud.goodTimes;
                 ArrayList<String> actualGoodTimes = new ArrayList<>();
@@ -81,22 +87,25 @@ public class LocalSearch {
                 }
 
                 if( actualGoodTimes.size() == 0 ){
-                    Random rand = new Random();
-                    int randInt = rand.nextInt(times.size());
+
+                    int randInt = randNumber(0,times.size());
                     assignment.get(times.get(randInt)).add(stud);
                 }else{
-                    Random rand = new Random();
-                    int randInt = rand.nextInt(actualGoodTimes.size());
-                    int randTime = rand.nextInt(fileData.get().classData.groupsByTime.get(actualGoodTimes.get(randInt)).size());
-                    FileParsers.Group group = fileData.get().classData.groupsByTime.get(actualGoodTimes.get(randInt)).get(randTime);
+
+                    int randInt = randNumber(0,actualGoodTimes.size());
+                    //int randTime = randNumber(0,fileData.get().classData.groupsByTime.get(actualGoodTimes.get(randInt)).size());
+                    FileParsers.Group group = fileData.get().classData.groupsByTime.get(actualGoodTimes.get(randInt));
                     assignment.get(group).add(stud);
                 }
             }
             else{
-                Random rand = new Random();
-                int ran = rand.nextInt(acutalPossibleTimes.size());
-                int timeRan = rand.nextInt(fileData.get().classData.groupsByTime.get(acutalPossibleTimes.get(ran)).size());
-                FileParsers.Group group = fileData.get().classData.groupsByTime.get(acutalPossibleTimes.get(ran)).get(timeRan);
+
+                int ran = randNumber(0,acutalPossibleTimes.size());
+
+                //int timeRan = randNumber(0,fileData.data.classData.groupsByTime.get(acutalPossibleTimes.get(ran)).size());
+               // System.out.println( "timeRan: " + timeRan );
+               // System.out.println("here: " + fileData.get().classData.groupsByTime.get(acutalPossibleTimes.get(ran)) );
+                FileParsers.Group group = fileData.get().classData.groupsByTime.get(acutalPossibleTimes.get(ran));
 
                 assignment.get(group).add(stud);
             }
@@ -109,11 +118,14 @@ public class LocalSearch {
         int zeroCounter = 0;
         boolean swapped;
         do{
+            System.out.println("looping 2");
             swapped = false;
             Set<FileParsers.Group> groups = curAssignment.keySet();
-
+            //System.out.println("double swap");
             for( FileParsers.Group time : groups ){
-                for( FileParsers.Student student : curAssignment.get(time) ){
+                ArrayList<FileParsers.Student> students = curAssignment.get(time);
+                for( int i = 0; i < students.size(); i++ ){
+                    FileParsers.Student student = students.get(i);
                     for( FileParsers.Group time2 : groups ){
 
                         boolean studentAlreadySwapped = false;
@@ -123,13 +135,15 @@ public class LocalSearch {
 
                         String justTime2= time2.time;
 
-                        if( fileData.get().studentData.students.get(student.name).goodTimes.contains(justTime2) ||
-                                fileData.get().studentData.students.get(student.name).possibleTimes.contains(justTime2)){
-                            for( FileParsers.Student student2 : curAssignment.get(time2) ){
+                        if( fileData.get().studentData.students.get(student.email).goodTimes.contains(justTime2) ||
+                                fileData.get().studentData.students.get(student.email).possibleTimes.contains(justTime2)){
+                            ArrayList<FileParsers.Student> students2 = curAssignment.get(time2);
+                            for( int j = 0; j < students2.size(); j++){
+                                FileParsers.Student student2 = students2.get(j);
                                 String justTime1 = time.time;
 
-                                if( fileData.get().studentData.students.get(student2.name).goodTimes.contains(justTime1) ||
-                                        fileData.get().studentData.students.get(student2.name).possibleTimes.contains(justTime1) ){
+                                if( fileData.get().studentData.students.get(student2.email).goodTimes.contains(justTime1) ||
+                                        fileData.get().studentData.students.get(student2.email).possibleTimes.contains(justTime1) ){
                                     int gradeTime1Before = grade( time, curAssignment.get(time) );
                                     int gradeTime1After = gradeSwap(time, curAssignment.get(time), student2, student);
                                     int diff1 = gradeTime1Before - gradeTime1After;
@@ -185,11 +199,13 @@ public class LocalSearch {
         int zeroCounter = 0;
         boolean swapped = false;
         do{
-
+            System.out.println("looping 1");
             swapped = false;
             Set<FileParsers.Group> groups = curAssignment.keySet();
             for( FileParsers.Group time : groups ){
-                for( FileParsers.Student student : curAssignment.get(time) ){
+                ArrayList<FileParsers.Student> students = curAssignment.get(time);
+                for( int i = 0; i < students.size(); i++ ){
+                    FileParsers.Student student = students.get(i);
 
                     int beforePenalty1 = grade( time, curAssignment.get(time) );
                     int afterPenalty1 = gradeWithout( time, curAssignment.get(time), student);
@@ -197,15 +213,15 @@ public class LocalSearch {
                     int diff1 = beforePenalty1 - afterPenalty1;
 
                     ArrayList<String> _allTimes = new ArrayList<>();
-                    _allTimes.addAll(fileData.get().studentData.students.get(student.name).possibleTimes);
-                    _allTimes.addAll(fileData.get().studentData.students.get(student.name).goodTimes);
+                    _allTimes.addAll(fileData.get().studentData.students.get(student.email).possibleTimes);
+                    _allTimes.addAll(fileData.get().studentData.students.get(student.email).goodTimes);
                     ArrayList<FileParsers.Group> allTimes = new ArrayList<>();
 
                     for( String _time: _allTimes ){
                         if( fileData.get().classData.groupsByTime.containsKey(_time) ){
-                            for( FileParsers.Group __group : fileData.get().classData.groupsByTime.get(_time) ){
-                                allTimes.add(__group);
-                            }
+                            //for( FileParsers.Group __group : fileData.get().classData.groupsByTime.get(_time) ){
+                                allTimes.add(fileData.get().classData.groupsByTime.get(_time));
+                            //}
                         }
                     }
 
@@ -222,15 +238,19 @@ public class LocalSearch {
 
                         int totalDiff = diff2 + diff1;
 
+
+
                         if( totalDiff >= 0 ){
                             if( zeroCounter >= 200 ){
                                 return;
-                            }else if(zeroCounter == 0){
+                            }else if(totalDiff == 0){
                                 zeroCounter++;
                             }else{
                                 zeroCounter = 0;
                             }
                             swapped = true;
+
+
 
                             curAssignment.get(time).remove(curAssignment.get(time).indexOf(student));
                             curAssignment.get(time2).add(student);
@@ -268,7 +288,9 @@ public class LocalSearch {
         }
 
         for( int i = 0; i < studentInTimeSlot.size(); i++ ){
-            FileParsers.Student stud = fileData.get().studentData.students.get(studentInTimeSlot.get(i));
+            //System.out.println( "Student: "+ studentInTimeSlot.get(i).email );
+            //System.out.println( "Students list: " + fileData.get().studentData.students );
+            FileParsers.Student stud = fileData.get().studentData.students.get(studentInTimeSlot.get(i).email);
 
             if( stud.sex.toLowerCase().charAt(0) == 'm' ){
                 male++;
@@ -353,8 +375,13 @@ public class LocalSearch {
         return curAssignment;
     }
 
+    private int randNumber(int min, int max){
+        return (int)Math.floor(Math.random() * (max-min) + min);
+    }
+
     //main method to run everything
     public static void main(String[] args) {
-        LocalSearch localSearch = new LocalSearch(Integer.parseInt(args[1]), args[2]);
+        LocalSearch localSearch = new LocalSearch(Integer.parseInt(args[0]), args[1]);
+        System.exit(0);
     }
 }

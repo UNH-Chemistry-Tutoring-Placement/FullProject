@@ -1,4 +1,4 @@
-
+package Validator;
 import javafx.util.Pair;
 
 import javax.swing.*;
