@@ -29,8 +29,16 @@ public class FileParsers {
 
             Group g = new Group(name, email, time);
 
-            data.groups.put(g.time + "," + g.name, g);
-            data.groupsByTime.put(g.time, g);
+            //There could be multiple groups meeting at the same time
+            if( data.groups.containsKey(g.time + "," + g.name) ) {
+                data.groups.get(g.time + "," + g.name).add(g);
+                data.groups.get(g.time).add(g);
+            }
+            else {
+                data.groups.put(g.time + "," + g.name, new ArrayList<>());
+                data.groupsByTime.put(g.time, new ArrayList<>());
+            }
+
         }
 
         return data;
@@ -104,8 +112,8 @@ public class FileParsers {
         public ArrayList<String> professors;
         public int numberOfProfessors;
         public int numberOfGroups;
-        public HashMap<String, Group> groups;
-        public HashMap<String, Group> groupsByTime;
+        public HashMap<String, ArrayList<Group>> groups;
+        public HashMap<String, ArrayList<Group>> groupsByTime;
 
         public ClassData() {
             description = "";
