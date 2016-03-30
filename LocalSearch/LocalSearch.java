@@ -1,10 +1,10 @@
 package LocalSearch;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class LocalSearch {
-    private int grade = 0;
+    private int finalGrade = 0;
+    private HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> bestSolution;
     private int secondsToRun;
     private FileData fileData;
     public LocalSearch( int timeToRun, String outFileName ){
@@ -12,28 +12,36 @@ public class LocalSearch {
         fileData = new FileData();
         secondsToRun = timeToRun;
         fileData.load();
-        HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> assignments = regularSwap();
-
-
-
+        regularSwap();
+        
         //fileData.out(grade, assignments, args[1]);
     }
 
-    private HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> regularSwap(){
+    private void regularSwap(){
 
         HashMap<FileParsers.Group, ArrayList<FileParsers.Student>>  results = new HashMap<>();
 
         long timeStart = new Date().getTime();
 
-        while( new Date().getTime() - timeStart < secondsToRun){
+        while( new Date().getTime() - timeStart < secondsToRun ){
             HashMap<FileParsers.Group, ArrayList<FileParsers.Student>>   curAssignment = randomAssignment();
 
             HashMap<FileParsers.Group, ArrayList<FileParsers.Student>>  result = swap(curAssignment);
 
-
+            int grade = gradeTotal(result);
+            if( grade > finalGrade ){
+                bestSolution = result;
+                finalGrade = grade;
+            }
         }
+    }
 
-        return results;
+    public int getGrade(){
+        return finalGrade;
+    }
+
+    public HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> getSolution(){
+        return bestSolution;
     }
 
     private HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> randomAssignment( ){
@@ -115,13 +123,13 @@ public class LocalSearch {
 
                         String justTime2= time2.time;
 
-                        if( fileData.get().studentData.students.get(student).goodTimes.contains(justTime2) ||
-                                fileData.get().studentData.students.get(student).possibleTimes.contains(justTime2)){
+                        if( fileData.get().studentData.students.get(student.name).goodTimes.contains(justTime2) ||
+                                fileData.get().studentData.students.get(student.name).possibleTimes.contains(justTime2)){
                             for( FileParsers.Student student2 : curAssignment.get(time2) ){
                                 String justTime1 = time.time;
 
-                                if( fileData.get().studentData.students.get(student2).goodTimes.contains(justTime1) ||
-                                        fileData.get().studentData.students.get(student2).possibleTimes.contains(justTime1) ){
+                                if( fileData.get().studentData.students.get(student2.name).goodTimes.contains(justTime1) ||
+                                        fileData.get().studentData.students.get(student2.name).possibleTimes.contains(justTime1) ){
                                     int gradeTime1Before = grade( time, curAssignment.get(time) );
                                     int gradeTime1After = gradeSwap(time, curAssignment.get(time), student2, student);
                                     int diff1 = gradeTime1Before - gradeTime1After;
@@ -175,6 +183,65 @@ public class LocalSearch {
 
     private void singleSwap(HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> curAssignment){
         int zeroCounter = 0;
+        boolean swapped = false;
+        do{
+
+            swapped = false;
+            Set<FileParsers.Group> groups = curAssignment.keySet();
+            for( FileParsers.Group time : groups ){
+                for( FileParsers.Student student : curAssignment.get(time) ){
+
+                    int beforePenalty1 = grade( time, curAssignment.get(time) );
+                    int afterPenalty1 = gradeWithout( time, curAssignment.get(time), student);
+
+                    int diff1 = beforePenalty1 - afterPenalty1;
+
+                    ArrayList<String> _allTimes = new ArrayList<>();
+                    _allTimes.addAll(fileData.get().studentData.students.get(student.name).possibleTimes);
+                    _allTimes.addAll(fileData.get().studentData.students.get(student.name).goodTimes);
+                    ArrayList<FileParsers.Group> allTimes = new ArrayList<>();
+
+                    for( String _time: _allTimes ){
+                        if( fileData.get().classData.groupsByTime.containsKey(_time) ){
+                            for( FileParsers.Group __group : fileData.get().classData.groupsByTime.get(_time) ){
+                                allTimes.add(__group);
+                            }
+                        }
+                    }
+
+                    for( FileParsers.Group time2 : allTimes ){
+                        if( time2 == time )
+                            continue;
+                        if( !curAssignment.containsKey(time2) )
+                            continue;
+
+                        int beforePenalty2 = grade(time2, curAssignment.get(time2));
+                        int afterPenalty2 = gradeWith(time2, curAssignment.get(time2), student);
+
+                        int diff2 = beforePenalty2 - afterPenalty2;
+
+                        int totalDiff = diff2 + diff1;
+
+                        if( totalDiff >= 0 ){
+                            if( zeroCounter >= 200 ){
+                                return;
+                            }else if(zeroCounter == 0){
+                                zeroCounter++;
+                            }else{
+                                zeroCounter = 0;
+                            }
+                            swapped = true;
+
+                            curAssignment.get(time).remove(curAssignment.get(time).indexOf(student));
+                            curAssignment.get(time2).add(student);
+
+                            break;
+                        }
+                    }
+                }
+            }
+
+        }while(swapped);
     }
 
     private int grade(FileParsers.Group timeSlot, ArrayList<FileParsers.Student> studentInTimeSlot ){
@@ -268,14 +335,24 @@ public class LocalSearch {
         return grade;
     }
 
+    private int gradeTotal(HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> times ){
+        int total = 0;
+        Set<FileParsers.Group> groups = times.keySet();
+        for( FileParsers.Group g : groups ){
+            total += grade( g, times.get(g) );
+        }
+        return total;
+    }
+
 
     private HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> swap( HashMap<FileParsers.Group, ArrayList<FileParsers.Student>>  curAssignment ){
 
-        HashMap<FileParsers.Group, ArrayList<FileParsers.Student>>  result = new HashMap<>();
+        singleSwap(curAssignment);
+        doubleSwap(curAssignment);
 
 
 
-        return result;
+        return curAssignment;
     }
 
     //main method to run everything
