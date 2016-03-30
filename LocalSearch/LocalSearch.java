@@ -13,7 +13,7 @@ public class LocalSearch {
         secondsToRun = timeToRun;
         fileData.load();
         regularSwap();
-        
+
         //fileData.out(grade, assignments, args[1]);
     }
 
@@ -350,13 +350,11 @@ public class LocalSearch {
         singleSwap(curAssignment);
         doubleSwap(curAssignment);
 
-
-
         return curAssignment;
     }
 
     //main method to run everything
     public static void main(String[] args) {
-
+        LocalSearch localSearch = new LocalSearch(Integer.parseInt(args[1]), args[2]);
     }
 }

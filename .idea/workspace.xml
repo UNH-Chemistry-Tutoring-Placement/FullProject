@@ -114,13 +114,13 @@
           <file leaf-file-name="LocalSearch.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/LocalSearch/LocalSearch.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.23972602">
-                  <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+                <state vertical-scroll-proportion="0.8458904">
+                  <caret line="356" column="44" selection-start-line="356" selection-start-column="44" selection-end-line="356" selection-end-column="44" />
                   <folding>
-                    <element signature="e#1165#1166#0" expanded="true" />
-                    <element signature="e#1198#1199#0" expanded="true" />
-                    <element signature="e#1284#1285#0" expanded="true" />
-                    <element signature="e#1319#1320#0" expanded="true" />
+                    <element signature="e#1157#1158#0" expanded="true" />
+                    <element signature="e#1190#1191#0" expanded="true" />
+                    <element signature="e#1276#1277#0" expanded="true" />
+                    <element signature="e#1311#1312#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -833,7 +833,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459361974271</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Finished single swap. untested">
+      <created>1459364796435</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1459364796435</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -890,7 +896,8 @@
     <MESSAGE value="Added output to CSV with Swing save dialog." />
     <MESSAGE value="Added random assignment algorithm to java local solver. Multiple groups can share a time." />
     <MESSAGE value="Added doubleswap and grading algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added doubleswap and grading algorithms" />
+    <MESSAGE value="Finished single swap. untested" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished single swap. untested" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1270,13 +1277,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LocalSearch/LocalSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23972602">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.8458904">
+          <caret line="356" column="44" selection-start-line="356" selection-start-column="44" selection-end-line="356" selection-end-column="44" />
           <folding>
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
           </folding>
         </state>
       </provider>
