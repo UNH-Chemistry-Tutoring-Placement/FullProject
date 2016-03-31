@@ -133,7 +133,7 @@ public class LocalSearch {
         int zeroCounter = 0;
         boolean swapped;
         do{
-            System.out.println("looping 2");
+            //System.out.println("looping 2");
             swapped = false;
             Set<FileParsers.Group> groups = curAssignment.keySet();
             //System.out.println("double swap");
@@ -214,7 +214,7 @@ public class LocalSearch {
         int zeroCounter = 0;
         boolean swapped = false;
         do{
-            System.out.println("looping 1");
+            //System.out.println("looping 1");
             swapped = false;
             Set<FileParsers.Group> groups = curAssignment.keySet();
             for( FileParsers.Group time : groups ){

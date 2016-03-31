@@ -1,5 +1,4 @@
 package FileIO;
-import LocalSearch.FileParsers;
 
 import javax.swing.*;
 import java.io.*;
