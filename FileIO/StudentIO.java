@@ -1,4 +1,6 @@
 package FileIO;
+import LocalSearch.FileParsers;
+
 import javax.swing.*;
 import java.io.*;
 import java.util.*;
@@ -21,9 +23,11 @@ public class StudentIO {
     private ArrayList<String> professors;
     private Hashtable<String,Student> studentNames;
     private static JFileChooser chooser;
+    private File studentFile;
+    private String studentFile_string;
 
     //+++++++++++++++++++++++++ Constructors ++++++++++++++++++++++++++
-    public StudentIO(String[] fileNames){
+    public StudentIO(String[] fileNames, boolean file ){
 
         professors = new ArrayList<>();
         studentNames = new Hashtable<>();
@@ -40,7 +44,11 @@ public class StudentIO {
         }
 
         parseAll(_fileNames);
-        produceStudentFile("./Files/students");
+
+        if( file )
+            produceStudentFile("./Files/students");
+        else
+            produceStudentString();
         sanityChecker.close();
     }
 
@@ -295,14 +303,20 @@ public class StudentIO {
         try {
             File newFile = new File(name);
             //if ( newFile.createNewFile()) {
+                StringBuilder builder = new StringBuilder();
                 BufferedWriter fileOut = new BufferedWriter( new FileWriter( newFile ) );
                 fileOut.append("Student Info Format: " + version + '\n');
                 fileOut.append("Description: " + description + '\n');
                 fileOut.append("Number of students: " + numberOfStudents + "\n");
+
+                builder.append("Student Info Format: " + version + '\n');
+                builder.append("Description: " + description + '\n');
+                builder.append("Number of students: " + numberOfStudents + "\n");
                 for( String s: _fileNames ){
                     printToFile( allLectures.get(s), fileOut );
                 }
                 fileOut.close();
+                studentFile = newFile;
                 System.out.println("Student file written to " + name);
             //}
            // else
@@ -311,6 +325,26 @@ public class StudentIO {
         } catch (IOException io ){
             System.out.println( "StudentIO Exception " + io.getMessage() );
         }
+    }
+
+    private void produceStudentString( ){
+        StringBuilder builder = new StringBuilder();
+
+        builder.append("Student Info Format: " + version + '\n');
+        builder.append("Description: " + description + '\n');
+        builder.append("Number of students: " + numberOfStudents + "\n");
+        for( String s: _fileNames ){
+            printToStringBuilder( allLectures.get(s), builder );
+        }
+        studentFile_string = builder.toString();
+    }
+
+    public String getStudentFile_string(){
+        return studentFile_string;
+    }
+
+    public File getStudentFile(){
+        return studentFile;
     }
 
     //=============================== printToFile =================================
@@ -324,6 +358,15 @@ public class StudentIO {
             }
         } catch (IOException io ){
             System.err.println( "IOException caught: " + io.getMessage() );
+        }
+    }
+
+    private void printToStringBuilder(ArrayList<Student> students, StringBuilder out){
+        for (Student student : students) {
+            // student will be null if no possible or prefferred times are chosen
+            if( student != null )
+                out.append(student.print());
+            //out.append('\n');
         }
     }
 
@@ -431,6 +474,6 @@ public class StudentIO {
     public static void main( String[] args ){
         String fileName = getFileName();
         String[] arg = {fileName};
-        new StudentIO(arg);
+        new StudentIO(arg, true);
     }
 }

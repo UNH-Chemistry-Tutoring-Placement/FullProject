@@ -24,6 +24,10 @@ public class ObjectiveFile {
         contents = new HashMap<>();
         parseObjective(objectveFile);
     }
+    public ObjectiveFile(String objectiveFile){
+        contents = new HashMap<>();
+        parseObjectiveString(objectiveFile);
+    }
 
     public String printAll(){
 
@@ -96,6 +100,18 @@ public class ObjectiveFile {
             objScanner.close();
         } catch ( FileNotFoundException e ){
             System.err.println("File " + objectiveFile.getName() + "not found.");
+        }
+    }
+
+    private void parseObjectiveString( String objectiveFile ){
+        Scanner objScanner = new Scanner(objectiveFile);
+        while( objScanner.hasNextLine() ){
+            String nextLine =  objScanner.nextLine();
+            if( nextLine.startsWith("#"))
+                continue;
+            Scanner lineScanner = new Scanner(nextLine).useDelimiter(":");
+            contents.put(lineScanner.next().trim(),lineScanner.next().trim());
+            lineScanner.close();
         }
     }
 

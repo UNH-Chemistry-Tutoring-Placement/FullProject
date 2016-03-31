@@ -74,6 +74,21 @@ public class Validate {
         }
     }
 
+    public Validate( String fullFile ){
+
+        String[] split1 = fullFile.split(classHeader);
+        String[] split2 = split1[1].split(studentHeader);
+        String[] split3 = split2[1].split(solutionHeader);
+
+        String objectiveFormat = split1[0].replace("null", ""); // good
+        String classInfo = classHeader + split2[ 0 ]; // good
+        String studentInfo = studentHeader + split3[ 0 ]; // good
+        String solution = solutionHeader + split3[ 1 ]; // good
+
+        init_string(objectiveFormat, studentInfo, solution);
+
+    }
+
     /**
      * Init from 3 different files
      * @param obj - objective file name
@@ -96,6 +111,14 @@ public class Validate {
         objective.delete();
         student.delete();
         solution.delete();
+
+        validate();
+    }
+
+    private void init_string(String obj, String students, String sol){
+        objectiveFile = new ObjectiveFile(obj);
+        studentFile = new StudentFile(students);
+        solutionFile = new SolutionFile(sol);
 
         validate();
     }

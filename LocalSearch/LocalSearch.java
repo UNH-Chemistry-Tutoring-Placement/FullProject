@@ -1,7 +1,6 @@
 package LocalSearch;
 
 import java.io.File;
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class LocalSearch {
@@ -9,6 +8,8 @@ public class LocalSearch {
     private HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> bestSolution;
     private int secondsToRun;
     private FileData fileData;
+    private String solution;
+
     public LocalSearch( int timeToRun, String outFileName ){
 
         fileData = new FileData();
@@ -17,6 +18,20 @@ public class LocalSearch {
         regularSwap();
 
         fileData.out(finalGrade, bestSolution, new File(outFileName));
+    }
+
+    public LocalSearch( String input ,int timeToRun ){
+
+        fileData = new FileData();
+        secondsToRun = timeToRun * 1000;
+        fileData.load(input);
+        regularSwap();
+
+        solution = fileData.out_string( finalGrade, bestSolution );
+    }
+
+    public String solution(){
+        return solution;
     }
 
     private void regularSwap(){

@@ -37,6 +37,90 @@ public class StudentFile {
         parseStudentFile(file);
     }
 
+    public StudentFile( String file ){
+        studentInfo = new HashMap<>();
+        studentPossibleTimes = new HashMap<>();
+        studentGoodTimes = new HashMap<>();
+        studentInfoByEmail = new HashMap<>();
+
+        parseStudentFile(file);
+    }
+
+    private void parseStudentFile( String file ){
+        Scanner studentScanner = new Scanner(file);
+        String currentStudent = "";
+        String currentEmail = "";
+        while( studentScanner.hasNextLine() ){
+            String nextLine = studentScanner.nextLine();
+            if( nextLine.startsWith("#"))
+                continue;
+            Scanner lineScanner = new Scanner( nextLine ).useDelimiter(":");
+            if( !lineScanner.hasNext() ){
+                if( studentScanner.hasNextLine())
+                    nextLine = studentScanner.nextLine();
+                else
+                    return;
+                lineScanner = new Scanner( nextLine ).useDelimiter(":");
+            }
+            String nextToken = lineScanner.next();
+            switch (nextToken){
+                case formatKey:
+                    version = Double.parseDouble(lineScanner.next().trim());
+                    break;
+                case descriptionKey:
+                    description = lineScanner.next().trim();
+                    break;
+                case numStudentKey:
+                    numberOfStudents = Integer.parseInt(lineScanner.next().trim());
+                    break;
+                case nameKey:
+                    currentStudent = lineScanner.next().trim();
+                    currentEmail = "";
+                    studentInfo.put(currentStudent, new HashMap<>());
+                    break;
+                case emailKey:
+                    currentEmail = lineScanner.next().trim().toLowerCase();
+                    studentInfo.get(currentStudent).put(emailKey, currentEmail );
+                    studentInfoByEmail.put(currentEmail, new HashMap<>());
+                    studentInfoByEmail.get( currentEmail ).put(nameKey, currentStudent);
+                    break;
+                case professorKey:
+                    String lecture = lineScanner.next().trim();
+                    studentInfo.get(currentStudent).put(professorKey, lecture);
+                    studentInfoByEmail.get(currentEmail).put(professorKey, lecture);
+                    break;
+                case yearKey:
+                    String year = lineScanner.next().trim();
+                    studentInfo.get(currentStudent).put( yearKey, year);
+                    studentInfoByEmail.get(currentEmail).put( yearKey, year );
+                    break;
+                case sexKey:
+                    String sex = lineScanner.next().trim();
+                    studentInfo.get( currentStudent ).put( sexKey, sex );
+                    studentInfoByEmail.get(currentEmail).put( sexKey, sex );
+                    break;
+                case goodTimeKey:
+                    int numGoodTimes = Integer.parseInt(lineScanner.next().trim());
+                    studentGoodTimes.put( currentStudent, new ArrayList<>() );
+                    for( int i = 0; i < numGoodTimes; i++ ){
+                        String nextTime = studentScanner.nextLine().trim();
+                        studentGoodTimes.get( currentStudent ).add( nextTime );
+                    }
+                    break;
+                case possibleTimeKey:
+                    int numPossibleTimes = Integer.parseInt(lineScanner.next().trim());
+                    studentPossibleTimes.put( currentStudent, new ArrayList<>() );
+                    for( int i = 0; i < numPossibleTimes; i++ ){
+                        String nextTime = studentScanner.nextLine();
+                        studentPossibleTimes.get( currentStudent ).add( nextTime.trim() );
+                    }
+                    break;
+            }
+            lineScanner.close();
+        }
+        studentScanner.close();
+    }
+
     private void parseStudentFile( File file ){
 
         try {

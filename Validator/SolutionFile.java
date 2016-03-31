@@ -38,6 +38,51 @@ public class SolutionFile {
         parseAll( solutionFile );
     }
 
+    public SolutionFile(String solutionFile ){
+        studentTimes = new HashMap<>();
+        students = new ArrayList<>();
+        groups = new HashMap<>();
+        times = new ArrayList<>();
+
+        parseAll(solutionFile);
+    }
+
+    private void parseAll( String file ){
+        Scanner solutionScanner = new Scanner( file );
+        while( solutionScanner.hasNextLine() ){
+            String nextLine = solutionScanner.nextLine();
+
+            if( nextLine.startsWith("#") )
+                continue;
+
+            Scanner lineScanner = new Scanner(nextLine).useDelimiter(":");
+            String key = lineScanner.next();
+            switch (key){
+                case versionKey:
+                    version = Double.parseDouble(lineScanner.next().trim());
+                    break;
+                case functionKey:
+                    functionDescription = lineScanner.next().trim();
+                    break;
+                case classInfoKey:
+                    classInfo = lineScanner.next().trim();
+                    break;
+                case studentInfoKey:
+                    studentInfo = lineScanner.next().trim();
+                    break;
+                case studentNumKey:
+                    numberOfStudents = Integer.parseInt(lineScanner.next().trim());
+                    parseStudents(solutionScanner);
+                    break;
+                case solutionCostKey:
+                    solutionCost = Integer.parseInt(lineScanner.next().trim());
+                    break;
+            }
+            lineScanner.close();
+        }
+        solutionScanner.close();
+    }
+
     private void parseAll( File file ){
 
         try{
