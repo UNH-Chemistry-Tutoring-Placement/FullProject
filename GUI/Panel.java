@@ -3,14 +3,17 @@ package GUI;
 import FileIO.StudentIO;
 import LocalSearch.LocalSearch;
 import Validator.Validate;
+import javafx.scene.control.ProgressBar;
 import javafx.util.Pair;
 
 import javax.swing.*;
+import javax.swing.JProgressBar;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 
 public class Panel extends JPanel {
@@ -19,6 +22,7 @@ public class Panel extends JPanel {
     private File outputFile;
     private StudentIO io;
     private ArrayList<TimePanel> timePanels;
+    private JProgressBar progressBar;
 
     private IntField minGroupField;
     private IntField maxGroupField;
@@ -28,6 +32,8 @@ public class Panel extends JPanel {
     private IntField diffProfField;
     private IntField genderSoloField;
     private IntField runTimeField;
+
+    JButton run;
 
     public Panel(Container parent){
         super();
@@ -92,8 +98,6 @@ public class Panel extends JPanel {
         step2Panel.add(step2);
 
 
-
-
         minGroupField = new IntField(5);
         maxGroupField = new IntField(10);
         belowMinField = new IntField(100);
@@ -146,15 +150,22 @@ public class Panel extends JPanel {
         step3InputPanel.setLayout(new BoxLayout(step3InputPanel, BoxLayout.LINE_AXIS));
         step3InputPanel.add(outputBrowse);
         step3InputPanel.add(outputFileField);
-
-        JButton run = new JButton("Run");
+        progressBar = new JProgressBar(0,Integer.parseInt(runTimeField.getText()));
+        progressBar.setStringPainted(true);
+        run = new JButton("Run");
         run.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                solve();
+
+                Thread t = new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        solve();
+                    }
+                });
+                t.start();
             }
         });
-
 
         add(step1Panel);
         add(step1InputPanel);
@@ -175,12 +186,49 @@ public class Panel extends JPanel {
         add(step3InputPanel);
 
         add(run);
+        add(progressBar);
 
 
     }
 
     private boolean checkInput(){
         return inputFileName != null && outputFile != null;
+    }
+
+    private void updateProgressBar(){
+        int secondsRun = 0;
+        final int runTime = Integer.parseInt(runTimeField.getText());
+        final long startTime = new Date().getTime();
+        final long endTime = startTime + (runTime*1000);
+        progressBar.setMaximum(runTime);
+        ProgressUpdater updater = new ProgressUpdater(progressBar);
+        while(secondsRun <= runTime){
+
+            SwingUtilities.invokeLater(updater);
+
+            try {
+                Thread.sleep(1000);
+            } catch(InterruptedException e){
+                System.err.println("Thread interrupted");
+                return;
+            }
+            secondsRun++;
+
+        }
+    }
+
+    private class ProgressUpdater implements Runnable{
+
+        JProgressBar _bar;
+        int secondsRun = 0;
+        public ProgressUpdater(JProgressBar bar){
+            _bar = bar;
+        }
+        @Override
+        public void run() {
+            progressBar.setValue(secondsRun);
+            secondsRun++;
+        }
     }
 
     private void solve(){
@@ -192,6 +240,14 @@ public class Panel extends JPanel {
 
         String info = makeObjFile() + classInfo + io.getStudentFile_string();
         int runTime = Integer.parseInt(runTimeField.getText());
+        run.setEnabled(false);
+        Thread t = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                updateProgressBar();
+            }
+        });
+        t.start();
 
         LocalSearch localSearch = new LocalSearch(info, runTime );
         String solution = localSearch.solution();
@@ -201,6 +257,7 @@ public class Panel extends JPanel {
         validate.saveToCSV(outputFile);
 
         JOptionPane.showMessageDialog(null,"Success");
+        run.setEnabled(true);
     }
 
     private String makeObjFile(){
@@ -311,20 +368,6 @@ public class Panel extends JPanel {
             c.gridy = 1;
             add(this.field,c);
 
-        }
-    }
-
-    private class InputPanelCollection extends JPanel{
-        private ArrayList<InputPanel> panels;
-        private JLabel title;
-
-        public InputPanelCollection(String name){
-            panels = new ArrayList<>();
-            title = new JLabel(name);
-        }
-
-        public void addPanel( InputPanel p ){
-            panels.add(p);
         }
     }
 

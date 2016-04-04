@@ -11,28 +11,7 @@ import java.util.Scanner;
 public class TutoringPlacementApplication {
 
     public TutoringPlacementApplication(){
-
         Frame f = new Frame("Team Scheduling Tool");
-
-//        String fileName = StudentIO.getFileName();
-//        if( fileName == null ){
-//            System.exit(0);
-//        }
-//        String[] arg = {fileName};
-//        StudentIO io = new StudentIO(arg, false);
-//
-//        String info = readSupportingFiles() + io.getStudentFile_string();
-//        LocalSearch localSearch = new LocalSearch( info, 10 );
-//
-//        String solution = localSearch.solution();
-//
-//        String allInfo = info + solution;
-//
-//
-//        Validate validate = new Validate(allInfo);
-//        validate.printRosters();
-//        validate.saveToCSV();
-
     }
 
     private String readSupportingFiles(){

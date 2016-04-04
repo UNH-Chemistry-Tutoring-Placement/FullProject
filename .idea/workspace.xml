@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="708e1525-b35b-4591-a443-7f78ba42c948" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/IntField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/IntFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LocalSearch/LocalSearch$CountThread.class" afterPath="$PROJECT_DIR$/LocalSearch/LocalSearch$CountThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LocalSearch/LocalSearch.class" afterPath="$PROJECT_DIR$/LocalSearch/LocalSearch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TutoringPlacementApplication.class" afterPath="$PROJECT_DIR$/TutoringPlacementApplication.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/output.csv" afterPath="$PROJECT_DIR$/Files/output.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/problem_students.txt" afterPath="$PROJECT_DIR$/Files/problem_students.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/Frame.java" afterPath="$PROJECT_DIR$/GUI/Frame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/Panel.java" afterPath="$PROJECT_DIR$/GUI/Panel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LocalSearch/LocalSearch.java" afterPath="$PROJECT_DIR$/LocalSearch/LocalSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TutoringPlacementApplication.java" afterPath="$PROJECT_DIR$/TutoringPlacementApplication.java" />
     </list>
     <ignored path="TutoringPlacementApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,18 +33,20 @@
         <entry file="file://$PROJECT_DIR$/TutoringPlacementApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Frame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Frame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI/Frame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16923077">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,19 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Panel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Panel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GUI/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="83" selection-start-line="48" selection-start-column="83" selection-end-line="48" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.64615387">
+              <caret line="259" column="29" selection-start-line="259" selection-start-column="29" selection-end-line="259" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6093#6094#0" expanded="true" />
-                <element signature="e#6132#6133#0" expanded="true" />
-                <element signature="e#6611#6612#0" expanded="true" />
-                <element signature="e#6677#6678#0" expanded="true" />
-                <element signature="e#11115#11116#0" expanded="true" />
-                <element signature="e#11152#11153#0" expanded="true" />
+                <element signature="e#6489#6490#0" expanded="true" />
+                <element signature="e#6544#6545#0" expanded="true" />
+                <element signature="e#7109#7110#0" expanded="true" />
+                <element signature="e#7175#7176#0" expanded="true" />
+                <element signature="e#8020#8021#0" expanded="true" />
+                <element signature="e#8054#8055#0" expanded="true" />
+                <element signature="e#8647#8648#0" expanded="true" />
+                <element signature="e#8698#8699#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,14 +197,14 @@
         <option value="$PROJECT_DIR$/Validator/StudentFile.java" />
         <option value="$PROJECT_DIR$/Files/GenChemSpring2016.csv" />
         <option value="$PROJECT_DIR$/makefile" />
-        <option value="$PROJECT_DIR$/TutoringPlacementApplication.java" />
         <option value="$PROJECT_DIR$/Validator/Validate.java" />
         <option value="$PROJECT_DIR$/FileIO/StudentIO.java" />
         <option value="$PROJECT_DIR$/GUI/IntFilter.java" />
         <option value="$PROJECT_DIR$/GUI/IntField.java" />
         <option value="$PROJECT_DIR$/LocalSearch/LocalSearch.java" />
-        <option value="$PROJECT_DIR$/GUI/Panel.java" />
         <option value="$PROJECT_DIR$/GUI/Frame.java" />
+        <option value="$PROJECT_DIR$/TutoringPlacementApplication.java" />
+        <option value="$PROJECT_DIR$/GUI/Panel.java" />
       </list>
     </option>
   </component>
@@ -746,7 +746,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459791169765</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add input constraints. Only runs when input/output files are selected. UI looks prettier.">
+      <created>1459805168388</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1459805168388</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -831,7 +837,8 @@
     <MESSAGE value="Pieced together. Unstable" />
     <MESSAGE value="Added option to not use bash scripts. Reduced file reading and writing by passing info from class to class as strings. Main class added" />
     <MESSAGE value="Added UI. Decreased amount of file writing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added UI. Decreased amount of file writing." />
+    <MESSAGE value="Add input constraints. Only runs when input/output files are selected. UI looks prettier." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add input constraints. Only runs when input/output files are selected. UI looks prettier." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1197,18 +1204,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/Panel.java">
+    <entry file="file://$PROJECT_DIR$/GUI/Frame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="83" selection-start-line="48" selection-start-column="83" selection-end-line="48" selection-end-column="83" />
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6093#6094#0" expanded="true" />
-            <element signature="e#6132#6133#0" expanded="true" />
-            <element signature="e#6611#6612#0" expanded="true" />
-            <element signature="e#6677#6678#0" expanded="true" />
-            <element signature="e#11115#11116#0" expanded="true" />
-            <element signature="e#11152#11153#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1216,19 +1217,29 @@
     <entry file="file://$PROJECT_DIR$/TutoringPlacementApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/Frame.java">
+    <entry file="file://$PROJECT_DIR$/GUI/Panel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16923077">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.64615387">
+          <caret line="259" column="29" selection-start-line="259" selection-start-column="29" selection-end-line="259" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6489#6490#0" expanded="true" />
+            <element signature="e#6544#6545#0" expanded="true" />
+            <element signature="e#7109#7110#0" expanded="true" />
+            <element signature="e#7175#7176#0" expanded="true" />
+            <element signature="e#8020#8021#0" expanded="true" />
+            <element signature="e#8054#8055#0" expanded="true" />
+            <element signature="e#8647#8648#0" expanded="true" />
+            <element signature="e#8698#8699#0" expanded="true" />
           </folding>
         </state>
       </provider>
