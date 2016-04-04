@@ -1,5 +1,6 @@
 package LocalSearch;
 
+import javax.swing.*;
 import java.io.File;
 import java.util.*;
 
@@ -404,7 +405,6 @@ public class LocalSearch {
 
     //thread class to count in one second intervals
     private class CountThread extends Thread {
-
         //time to run
         int _timeToRun = 0;
 
@@ -416,6 +416,7 @@ public class LocalSearch {
         //run method
         public void run() {
             int i = 0;
+
             while(i < _timeToRun + 1) {
                 System.out.println((_timeToRun - i) + " second(s) remaining.");
                 try {

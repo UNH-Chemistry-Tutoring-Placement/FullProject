@@ -9,7 +9,7 @@ import java.awt.*;
 public class Frame extends JFrame {
     public Frame(String title){
         super(title);
-        this.setPreferredSize(new Dimension(500,500));
+        this.setPreferredSize(new Dimension(400,600));
         this.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
         Panel p = new Panel(this);
         //p.setPreferredSize(new Dimension(1000,1000));
