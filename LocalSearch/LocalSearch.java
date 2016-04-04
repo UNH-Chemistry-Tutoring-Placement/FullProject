@@ -122,8 +122,8 @@ public class LocalSearch {
                 int ran = randNumber(0,acutalPossibleTimes.size());
 
                 //int timeRan = randNumber(0,fileData.data.classData.groupsByTime.get(acutalPossibleTimes.get(ran)).size());
-               // System.out.println( "timeRan: " + timeRan );
-               // System.out.println("here: " + fileData.get().classData.groupsByTime.get(acutalPossibleTimes.get(ran)) );
+                // System.out.println( "timeRan: " + timeRan );
+                // System.out.println("here: " + fileData.get().classData.groupsByTime.get(acutalPossibleTimes.get(ran)) );
                 FileParsers.Group group = fileData.get().classData.groupsByTime.get(acutalPossibleTimes.get(ran));
 
                 assignment.get(group).add(stud);
@@ -135,9 +135,10 @@ public class LocalSearch {
 
     private void doubleSwap(HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> curAssignment){
         int zeroCounter = 0;
-        boolean swapped = false;
+        boolean swapped;
         do{
-
+            //System.out.println("looping 2");
+            swapped = false;
             Set<FileParsers.Group> groups = curAssignment.keySet();
             //System.out.println("double swap");
             for( FileParsers.Group time : groups ){
@@ -171,7 +172,6 @@ public class LocalSearch {
                                     int diff2 = gradeTime2Before - gradeTime2After;
 
                                     if( diff1 + diff2 >= 0 ){
-
                                         int totalDiff = diff1 + diff2;
 
                                         if( totalDiff == 0 ){
@@ -194,7 +194,7 @@ public class LocalSearch {
 
                                         swapped = true;
                                         studentAlreadySwapped = true;
-                                        //System.out.println("swapped = true");
+
                                         break;
 
                                     }
@@ -237,7 +237,7 @@ public class LocalSearch {
                     for( String _time: _allTimes ){
                         if( fileData.get().classData.groupsByTime.containsKey(_time) ){
                             //for( FileParsers.Group __group : fileData.get().classData.groupsByTime.get(_time) ){
-                                allTimes.add(fileData.get().classData.groupsByTime.get(_time));
+                            allTimes.add(fileData.get().classData.groupsByTime.get(_time));
                             //}
                         }
                     }
