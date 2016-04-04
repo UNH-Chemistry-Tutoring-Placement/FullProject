@@ -234,6 +234,12 @@ public class Validate {
         saveDialog.showSaveDialog(null);
         File saveFile = saveDialog.getSelectedFile();
         FileWriter fileWriter;
+        saveToCSV(saveFile);
+
+    }
+
+    public void saveToCSV( File saveFile ){
+        FileWriter fileWriter;
         try{
             fileWriter = new FileWriter(saveFile);
             HashMap<Pair<String,String>, ArrayList<String> > groups = solutionFile.getGroups();
@@ -253,12 +259,7 @@ public class Validate {
             fileWriter.close();
         } catch (IOException e ){
             System.err.println("Could not open filewriter for output file.");
-            return;
         }
-
-
-
-
     }
 
 

@@ -1,7 +1,10 @@
 package FileIO;
 
+import javafx.util.Pair;
+
 import javax.swing.*;
 import java.io.*;
+import java.lang.reflect.Array;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -24,6 +27,9 @@ public class StudentIO {
     private static JFileChooser chooser;
     private File studentFile;
     private String studentFile_string;
+    private String classFile_string;
+
+    public HashMap<String,Pair<String,String>> timeToTAMap;
 
     //+++++++++++++++++++++++++ Constructors ++++++++++++++++++++++++++
     public StudentIO(String[] fileNames, boolean file ){
@@ -61,8 +67,9 @@ public class StudentIO {
                 allLectures.put( fileName, parseGoogleForm( new File(fileName )));
         }
 
-        if( googleForm )
-            makeClassTemplateFile();
+//        if( googleForm )
+//            makeClassTemplateFile();
+        mapGroupToTime();
     }
     //==============================parseGoogleForm=================================
     private ArrayList<Student> parseGoogleForm( File file ){
@@ -116,46 +123,52 @@ public class StudentIO {
 
         line = line.replaceAll("\"", "");
 
-        //System.out.println( "line: " + line );
-        String[] fields = line.split(",");
-        String firstName = fields[1];
-        String lastName = fields[2] + "(" + fields[3] + ")";
-        String unhID = fields[3];
-        String email = fields[4];
-        String gender = fields[5];
-        int year = resolveYear(fields[6]);
-        String professor = fields[7];
+        try {
+            //System.out.println( "line: " + line );
+            String[] fields = line.split(",");
+            String firstName = fields[1];
+            String lastName = fields[2] + "(" + fields[3] + ")";
+            String unhID = fields[3];
+            String email = fields[4];
+            String gender = fields[5];
+            int year = resolveYear(fields[6]);
+            String professor = fields[7];
 
-        if( !professors.contains(professor) )
-            professors.add( professor );
+            if (!professors.contains(professor))
+                professors.add(professor);
 
-        ArrayList<String> goodTimes = new ArrayList<>();
-        ArrayList<String> possibleTimes = new ArrayList<>();
+            ArrayList<String> goodTimes = new ArrayList<>();
+            ArrayList<String> possibleTimes = new ArrayList<>();
 
-        for( int i = 0; i < groupTimes.size(); i++ ){
-            if( fields[ i + 8 ].toLowerCase().equals("preferred") ){
-                goodTimes.add( groupTimes.get(i) );
+            for (int i = 0; i < groupTimes.size(); i++) {
+                if (fields[i + 8].toLowerCase().equals("preferred")) {
+                    goodTimes.add(groupTimes.get(i));
+                }
+                if (fields[i + 8].toLowerCase().equals("possible")) {
+                    possibleTimes.add(groupTimes.get(i));
+                }
             }
-            if( fields[i + 8].toLowerCase().equals("possible")){
-                possibleTimes.add(groupTimes.get(i));
+            String comments = "";
+            for (int i = 8 + groupTimes.size(); i < fields.length; i++) {
+                comments += fields[i];
             }
-        }
-        String comments = "";
-        for( int i = 8 + groupTimes.size(); i < fields.length; i++ ) {
-            comments += fields[i];
-        }
-        Student student = new Student( firstName + " " + lastName, email, professor,gender, year, goodTimes, possibleTimes );
-        student.setComment(comments);
+            Student student = new Student(firstName + " " + lastName, email, professor, gender, year, goodTimes, possibleTimes);
+            student.setComment(comments);
 
-        //System.out.println( student );
+            //System.out.println( student );
 
-        if( sanityChecker.addToRoster(student) ){
-            return student;
+            if (sanityChecker.addToRoster(student)) {
+                return student;
+            } else {
+                System.out.println(student.getName() + " not added to roster. See " + logFileName);
+                return null;
+            }
+        } catch(Exception e){
+            System.err.println("The file type chosen is not supported.");
+            JOptionPane.showMessageDialog(null,"The file type chosen is not supported.");
+            System.exit(1);
         }
-        else{
-            System.out.println( student.getName() + " not added to roster. See " + logFileName );
-            return null;
-        }
+        return null;
     }
 
     //=============================== parseFromCSV =================================
@@ -427,6 +440,40 @@ public class StudentIO {
         }
 
     }
+
+    public String makeClassTemplate(){
+
+        StringBuilder builder = new StringBuilder();
+        builder.append("# Auto generated template \n");
+        builder.append("Class Info Format: 2\n");
+        builder.append("Description: (add description here)\n");
+        builder.append("Number of professors: " + professors.size() + "\n");
+        for( int i = 0; i < professors.size(); i++ ){
+            builder.append("Name: " + professors.get(i) + "\n" );
+        }
+        builder.append( "Number of groups: " + groupTimes.size() + "\n" );
+        for( int i = 0; i < groupTimes.size(); i++ ){
+            builder.append("Name: \n");
+            builder.append("Email: \n");
+            builder.append("Time: " + groupTimes.get(i) + "\n" );
+        }
+        return builder.toString();
+    }
+
+    private void mapGroupToTime(){
+        timeToTAMap = new HashMap<>();
+
+        for( int i = 0 ; i < groupTimes.size(); i++ ){
+            timeToTAMap.put(groupTimes.get(i), new Pair<>("",""));
+        }
+    }
+
+    public ArrayList<String> getGroupTimes(){
+        return groupTimes;
+    }
+
+
+
 
     //=============================== deleteFile =================================
     private void deleteFile( File file ){

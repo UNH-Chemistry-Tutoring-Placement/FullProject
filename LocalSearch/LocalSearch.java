@@ -131,10 +131,9 @@ public class LocalSearch {
 
     private void doubleSwap(HashMap<FileParsers.Group, ArrayList<FileParsers.Student>> curAssignment){
         int zeroCounter = 0;
-        boolean swapped;
+        boolean swapped = false;
         do{
-            //System.out.println("looping 2");
-            swapped = false;
+
             Set<FileParsers.Group> groups = curAssignment.keySet();
             //System.out.println("double swap");
             for( FileParsers.Group time : groups ){
@@ -168,6 +167,7 @@ public class LocalSearch {
                                     int diff2 = gradeTime2Before - gradeTime2After;
 
                                     if( diff1 + diff2 >= 0 ){
+
                                         int totalDiff = diff1 + diff2;
 
                                         if( totalDiff == 0 ){
@@ -177,9 +177,7 @@ public class LocalSearch {
                                                 zeroCounter++;
                                             }
                                         }
-                                        else{
-                                            zeroCounter = 0;
-                                        }
+
 
                                         int studIndex = curAssignment.get(time).indexOf(student);
                                         curAssignment.get(time).remove(studIndex);
@@ -192,7 +190,7 @@ public class LocalSearch {
 
                                         swapped = true;
                                         studentAlreadySwapped = true;
-
+                                        //System.out.println("swapped = true");
                                         break;
 
                                     }
@@ -256,7 +254,7 @@ public class LocalSearch {
 
 
                         if( totalDiff >= 0 ){
-                            if( zeroCounter >= 200 ){
+                            if( zeroCounter >= 1000 ){
                                 return;
                             }else if(totalDiff == 0){
                                 zeroCounter++;

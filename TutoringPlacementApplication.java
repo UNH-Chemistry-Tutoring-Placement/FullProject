@@ -1,6 +1,8 @@
 import FileIO.StudentIO;
+import GUI.Frame;
 import LocalSearch.LocalSearch;
 import Validator.Validate;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,21 +12,26 @@ public class TutoringPlacementApplication {
 
     public TutoringPlacementApplication(){
 
-        String fileName = StudentIO.getFileName();
-        String[] arg = {fileName};
-        StudentIO io = new StudentIO(arg, false);
+        Frame f = new Frame("Team Scheduling Tool");
 
-        String info = readSupportingFiles() + io.getStudentFile_string();
-        LocalSearch localSearch = new LocalSearch( info, 10 );
-
-        String solution = localSearch.solution();
-
-        String allInfo = info + solution;
-
-
-        Validate validate = new Validate(allInfo);
-        validate.printRosters();
-        validate.saveToCSV();
+//        String fileName = StudentIO.getFileName();
+//        if( fileName == null ){
+//            System.exit(0);
+//        }
+//        String[] arg = {fileName};
+//        StudentIO io = new StudentIO(arg, false);
+//
+//        String info = readSupportingFiles() + io.getStudentFile_string();
+//        LocalSearch localSearch = new LocalSearch( info, 10 );
+//
+//        String solution = localSearch.solution();
+//
+//        String allInfo = info + solution;
+//
+//
+//        Validate validate = new Validate(allInfo);
+//        validate.printRosters();
+//        validate.saveToCSV();
 
     }
 
