@@ -38,10 +38,14 @@ public class LocalSearch {
 
         HashMap<FileParsers.Group, ArrayList<FileParsers.Student>>  results = new HashMap<>();
 
+        CountThread ct = new CountThread(secondsToRun / 1000);
+        ct.start();
+
         long timeStart = new Date().getTime();
 
         while( new Date().getTime() - timeStart < secondsToRun ){
-            System.out.println( "Running: " + (new Date().getTime() - timeStart) );
+            //System.out.println( "Running: " + (new Date().getTime() - timeStart) );
+
             HashMap<FileParsers.Group, ArrayList<FileParsers.Student>>   curAssignment = randomAssignment();
 
             HashMap<FileParsers.Group, ArrayList<FileParsers.Student>>  result = swap(curAssignment);
@@ -398,5 +402,31 @@ public class LocalSearch {
     public static void main(String[] args) {
         LocalSearch localSearch = new LocalSearch(Integer.parseInt(args[0]), args[1]);
         System.exit(0);
+    }
+
+    //thread class to count in one second intervals
+    private class CountThread extends Thread {
+
+        //time to run
+        int _timeToRun = 0;
+
+        //constructor
+        public CountThread(int timeToRun) {
+            _timeToRun = timeToRun;
+        }
+
+        //run method
+        public void run() {
+            int i = 0;
+            while(i < _timeToRun + 1) {
+                System.out.println((_timeToRun - i) + " second(s) remaining.");
+                try {
+                    Thread.sleep(1000);                 //1000 milliseconds is one second.
+                } catch(InterruptedException ex) {
+                    Thread.currentThread().interrupt();
+                }
+                i++;
+            }
+        }
     }
 }
