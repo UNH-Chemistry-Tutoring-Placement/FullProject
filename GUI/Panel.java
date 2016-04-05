@@ -60,7 +60,6 @@ public class Panel extends JPanel {
 
         JTextField inputFileField = new JTextField("No input file chosen");
         inputFileField.setMaximumSize(new Dimension(500,20));
-        //inputFileField.setMinimumSize(new Dimension(getWidth(), 15));
         JButton inputBrowse = new JButton("Browse");
         inputBrowse.addActionListener(new ActionListener() {
             @Override

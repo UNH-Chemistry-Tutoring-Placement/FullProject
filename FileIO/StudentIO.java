@@ -19,7 +19,7 @@ public class StudentIO {
     private HashMap<String, ArrayList<Student>> allLectures;
     private int numberOfStudents = 0;
     private SanityChecker sanityChecker;
-    private String logFileName = "./Files/problem_students.txt";
+    private String logFileName = "./problem_students.txt";
     boolean googleForm = true; // use blackboard if false
     private ArrayList<String> groupTimes;
     private ArrayList<String> professors;

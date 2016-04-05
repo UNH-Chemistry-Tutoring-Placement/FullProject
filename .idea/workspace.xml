@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="708e1525-b35b-4591-a443-7f78ba42c948" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TutoringPlacementApplication.class" afterPath="$PROJECT_DIR$/TutoringPlacementApplication.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifest.mf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileIO/StudentIO.class" afterPath="$PROJECT_DIR$/FileIO/StudentIO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileIO/StudentIO.java" afterPath="$PROJECT_DIR$/FileIO/StudentIO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/output.csv" afterPath="$PROJECT_DIR$/Files/output.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/problem_students.txt" afterPath="$PROJECT_DIR$/Files/problem_students.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/Panel.java" afterPath="$PROJECT_DIR$/GUI/Panel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TutoringPlacementApplication.java" afterPath="$PROJECT_DIR$/TutoringPlacementApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/makefile" afterPath="$PROJECT_DIR$/makefile" />
     </list>
     <ignored path="TutoringPlacementApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,27 +70,39 @@
         <entry file="file://$PROJECT_DIR$/makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="105" selection-start-line="2" selection-start-column="105" selection-end-line="2" selection-end-column="105" />
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Panel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SanityChecker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FileIO/SanityChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="121" column="22" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.mf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.mf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Panel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64615387">
-              <caret line="259" column="29" selection-start-line="259" selection-start-column="29" selection-end-line="259" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6489#6490#0" expanded="true" />
-                <element signature="e#6544#6545#0" expanded="true" />
-                <element signature="e#7109#7110#0" expanded="true" />
-                <element signature="e#7175#7176#0" expanded="true" />
-                <element signature="e#8020#8021#0" expanded="true" />
-                <element signature="e#8054#8055#0" expanded="true" />
-                <element signature="e#8647#8648#0" expanded="true" />
-                <element signature="e#8698#8699#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,15 +132,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentIO.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StudentIO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FileIO/StudentIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="167" column="89" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="89" />
-              <folding>
-                <element signature="e#17399#17400#0" expanded="true" />
-                <element signature="e#17432#17433#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.21538462">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FileIO/SanityChecker.java" />
         <option value="$PROJECT_DIR$/FileIO/Student.java" />
         <option value="$PROJECT_DIR$/runFileIO.sh" />
         <option value="$PROJECT_DIR$/Files/temp2" />
@@ -196,15 +205,16 @@
         <option value="$PROJECT_DIR$/Validator/SolutionFile.java" />
         <option value="$PROJECT_DIR$/Validator/StudentFile.java" />
         <option value="$PROJECT_DIR$/Files/GenChemSpring2016.csv" />
-        <option value="$PROJECT_DIR$/makefile" />
         <option value="$PROJECT_DIR$/Validator/Validate.java" />
-        <option value="$PROJECT_DIR$/FileIO/StudentIO.java" />
         <option value="$PROJECT_DIR$/GUI/IntFilter.java" />
         <option value="$PROJECT_DIR$/GUI/IntField.java" />
         <option value="$PROJECT_DIR$/LocalSearch/LocalSearch.java" />
         <option value="$PROJECT_DIR$/GUI/Frame.java" />
         <option value="$PROJECT_DIR$/TutoringPlacementApplication.java" />
         <option value="$PROJECT_DIR$/GUI/Panel.java" />
+        <option value="$PROJECT_DIR$/manifest.mf" />
+        <option value="$PROJECT_DIR$/makefile" />
+        <option value="$PROJECT_DIR$/FileIO/StudentIO.java" />
       </list>
     </option>
   </component>
@@ -244,9 +254,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,40 +284,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Validator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocalSearch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TutoringPlacementApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GUI" />
+              <option name="myItemId" value="FileIO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -752,7 +734,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459805168388</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added progress bar. Solving is now done on separate thread.">
+      <created>1459809036666</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1459809036666</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -761,12 +749,10 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2344983" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32743362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14642857" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -774,13 +760,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -838,7 +826,8 @@
     <MESSAGE value="Added option to not use bash scripts. Reduced file reading and writing by passing info from class to class as strings. Main class added" />
     <MESSAGE value="Added UI. Decreased amount of file writing." />
     <MESSAGE value="Add input constraints. Only runs when input/output files are selected. UI looks prettier." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add input constraints. Only runs when input/output files are selected. UI looks prettier." />
+    <MESSAGE value="Added progress bar. Solving is now done on separate thread." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added progress bar. Solving is now done on separate thread." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -851,13 +840,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Files/complete-input">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.507936">
-          <caret line="2015" column="27" selection-start-line="2015" selection-start-column="27" selection-end-line="2015" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sLocal-Search-master/node_modules/Parser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17989418">
@@ -998,13 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/SanityChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9863014">
-          <caret line="121" column="22" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FileIO/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.051369864">
@@ -1100,7 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,7 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0171233">
           <caret line="123" column="452" selection-start-line="123" selection-start-column="452" selection-end-line="123" selection-end-column="452" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,7 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,18 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/StudentIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="167" column="89" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="89" />
-          <folding>
-            <element signature="e#17399#17400#0" expanded="true" />
-            <element signature="e#17432#17433#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1164,14 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2830769">
           <caret line="240" column="27" selection-start-line="240" selection-start-column="27" selection-end-line="240" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="105" selection-start-line="2" selection-start-column="105" selection-end-line="2" selection-end-column="105" />
           <folding />
         </state>
       </provider>
@@ -1228,19 +1180,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI/Panel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64615387">
-          <caret line="259" column="29" selection-start-line="259" selection-start-column="29" selection-end-line="259" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6489#6490#0" expanded="true" />
-            <element signature="e#6544#6545#0" expanded="true" />
-            <element signature="e#7109#7110#0" expanded="true" />
-            <element signature="e#7175#7176#0" expanded="true" />
-            <element signature="e#8020#8021#0" expanded="true" />
-            <element signature="e#8054#8055#0" expanded="true" />
-            <element signature="e#8647#8648#0" expanded="true" />
-            <element signature="e#8698#8699#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.mf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIO/SanityChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="22" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIO/StudentIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21538462">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
