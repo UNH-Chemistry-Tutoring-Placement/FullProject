@@ -19,6 +19,7 @@ public class Validate {
     private final String studentHeader = "Student Info Format";
     private final String classHeader = "Class Info Format";
     private boolean debug = false;
+    private int score = 0;
 
     /**
      * Init from system.in - cat'ed files
@@ -194,6 +195,11 @@ public class Validate {
         }
         System.out.println("\nValidator Assigned Penalty: " + penalty );
         System.out.println("Solver assigned Penalty: " + solutionFile.getSolutionCost() + '\n');
+        score = penalty;
+    }
+
+    public int getScore(){
+        return score;
     }
 
     public ArrayList<Pair<String, String>> rearrange(ArrayList<Pair<String,String>> timeToOutput) {

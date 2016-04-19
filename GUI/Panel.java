@@ -255,7 +255,7 @@ public class Panel extends JPanel {
         Validate validate = new Validate(allInfo);
         validate.saveToCSV(outputFile);
 
-        JOptionPane.showMessageDialog(null,"Success");
+        JOptionPane.showMessageDialog(null,"Score: " + validate.getScore() );
         run.setEnabled(true);
     }
 
