@@ -86,7 +86,7 @@ public class LocalSearch {
         Iterator<FileParsers.Student> studentIterator = fileData.get().studentData.students.values().iterator();
         while( studentIterator.hasNext() ){
             FileParsers.Student stud = studentIterator.next();
-            ArrayList<String> possibleTimes = stud.possibleTimes;
+            ArrayList<String> possibleTimes = stud.goodTimes;
             ArrayList<String> acutalPossibleTimes = new ArrayList<>();
 
             for( String s : possibleTimes ){
@@ -97,7 +97,7 @@ public class LocalSearch {
             //System.out.println("Actualpossibles: " + acutalPossibleTimes );
 
             if( acutalPossibleTimes.size() == 0 ){
-                ArrayList<String> goodTimes = stud.goodTimes;
+                ArrayList<String> goodTimes = stud.possibleTimes;
                 ArrayList<String> actualGoodTimes = new ArrayList<>();
 
                 for( String s : goodTimes ){
